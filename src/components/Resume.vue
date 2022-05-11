@@ -19,52 +19,60 @@
         <div class="inlineBlock textLeft">
           <!-- contact -->
           <div>
-            <div class="el-icon-user-solid parentTitle">Contact</div>
+            <div class="el-icon-user-solid parentTitle underLine">Contact</div>
+            <br><br>
+
             <div class="subTitle">Address</div>
-            <span>Tokyo edogawa koiwa</span><br><br>
+            <div class="marginOfItem">Tokyo edogawa koiwa</div>
 
             <div class="subTitle">Github</div>
-            <span>23333333333</span><br><br>
+            <div class="marginOfItem">23333333333</div>
 
             <div class="subTitle">Email</div>
-            <span>23333333333@gmail.com</span><br><br>
+            <div class="marginOfItem">23333333333@gmail.com</div>
 
             <div class="subTitle">LinkedIn</div>
-            <span>23333333333@gmail.com</span><br><br>
+            <div class="marginOfItem">23333333333@gmail.com</div>
 
             <div class="subTitle">My Blog</div>
-            <span>23333333333@gmail.com</span>
-          </div><br>
+            <div class="marginOfItem">23333333333@gmail.com</div>
+          </div>
+          <br />
 
           <!-- language -->
           <div>
-            <div class="el-icon-user-solid parentTitle">Language</div>
+            <div class="el-icon-info parentTitle underLine">Language</div>
+            <br><br>
+
             <div class="subTitle">English</div>
-            <span>TOEIC:820(Listening And Reading)</span><br><br>
+            <div class="marginOfItem">TOEIC:820(Listening And Reading)</div>
 
             <div class="subTitle">Japanese</div>
-            <span>JLPT N1:121</span><br>
-            <span>JLPT N2:137</span><br><br>
+            <div class="marginOfItem">
+              <span>JLPT N1:121</span><br />
+              <span>JLPT N2:137</span>
+            </div>
 
             <div class="subTitle">Chinese</div>
-            <span>Native Speaker</span>
-          </div><br>
+            <div class="marginOfItem">Native Speaker</div>
+          </div>
+          <br />
 
           <!-- skill -->
           <div>
-            <div class="el-icon-user-solid parentTitle">Skills</div>
-            <div id="skill-area" style="width: 200px; height: 200px"></div>
+            <div class="el-icon-s-opportunity parentTitle underLine">Skills</div>
+            <div id="skill-area" style="width: `160px; height: 200px"></div>
           </div>
         </div>
 
         <!-- experiences and education -->
         <div class="inlineBlock textLeft">
           <!-- experience -->
-          <div class="el-icon-user-solid parentTitle">Experience</div>
+          <div class="el-icon-s-data parentTitle underLine">Experience</div>
           <div>
             <h3>
               <span>株式会社Q And F</span>
-              <br />
+              <br>
               <span>2021/4 - current</span>
             </h3>
             <ul>
@@ -108,12 +116,12 @@
 
           <!-- Education -->
           <div>
-            <div class="el-icon-user-solid parentTitle">Education</div>
+            <div class="el-icon-s-order parentTitle underLine">Education</div>
             <h3>
               <span>Bachelor: Financial Management</span>
-              <br />
+              <br>
               <span>2013 - 2017</span>
-              <br />
+              <br>
               <span>YunCheng University</span>
             </h3>
           </div>
@@ -146,10 +154,12 @@ export default {
         indicator: [
           { name: "Java", max: 100 },
           { name: "Spring", max: 100 },
-          { name: "Vue/React", max: 100 },
-          { name: "HTML/CSS/JS", max: 100 },
-          { name: "Database", max: 100 },
-          { name: "Language", max: 100 },
+          { name: "JS", max: 100 },
+          { name: "CSS", max: 100 },
+          { name: "HTML", max: 100 },
+          { name: "Vue", max: 100 },
+          { name: "DB", max: 100 },
+          { name: "React", max: 100 },
         ],
       },
       series: [
@@ -158,7 +168,7 @@ export default {
           type: "radar",
           data: [
             {
-              value: [100, 80, 70, 70, 80, 90],
+              value: [90, 90, 80, 70, 90, 80, 80, 80],
               name: "skill score",
             },
           ],
@@ -216,5 +226,13 @@ article {
 .parentTitle {
   font-size: 1.6em;
   font-weight: 700;
+}
+
+.marginOfItem {
+  margin: 5px 0;
+}
+
+.underLine {
+  border-bottom: 2px solid black;
 }
 </style>
