@@ -1,19 +1,20 @@
 <template>
   <div class="parent">
     <article>
-      <header>
-        <h1>XIAOLE LIANG</h1>
+      <header class="textLeft">
+       <h1>XIAOLE LIANG</h1>
         <p>
           Motivated Sales Associate with 5 years of experience boosting sales
           and customer loyalty through individualized service. Resourceful
           expert at learning customer needs, directing to desirable merchandise
           and upselling to meet sales quotas. Committed to strengthening
           customer experiences with positivity and professionalism when
-          answering requests and processing sales.
         </p>
       </header>
 
-      <main>
+      <div class="flexLayout">
+        <div class="inlineBlock"></div>
+
         <!-- basic information -->
         <div class="inlineBlock textLeft">
           <!-- contact -->
@@ -40,10 +41,66 @@
         <div class="inlineBlock">
           <!-- experience -->
           <h2 class="el-icon-user-solid">Experience</h2>
-            <h3>May 2015 - current 株式会社CPS</h3>
-            <p>Tokyo edogawa koiwa</p>
+          <div>
+            <h3>
+              May 2015 - current 株式会社CPS
+              <br />
+              <span>May 2016 - current</span>
+            </h3>
+            <ul>
+              <li>Effectively upsold products by introducing .</li>
+              <li>Generated brand awareness and positi.</li>
+              <li>Used consultative sales approach t.</li>
+              <li>Generated brand awareness and positi.</li>
+              <li>Used consultative sales approach t.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>
+              May 2015 - current 株式会社GSD
+              <br />
+              <span>May 2016 - current</span>
+            </h3>
+            <ul>
+              <li>Effectively upsold products by introducing .</li>
+              <li>Generated brand awareness and positi.</li>
+              <li>Used consultative sales approach t.</li>
+              <li>Generated brand awareness and positi.</li>
+              <li>Used consultative sales approach t.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>
+              May 2015 - current 株式会社GSD
+              <br />
+              <span>May 2016 - current</span>
+            </h3>
+            <ul>
+              <li>Effectively upsold products by introducing.</li>
+              <li>Generated brand awareness and positi.</li>
+              <li>Used consultative sales approach t.</li>
+              <li>Generated brand awareness and positi.</li>
+              <li>Used consultative sales approach t.</li>
+            </ul>
+          </div>
+
+          <!-- Education -->
+          <div>
+            <h2 class="el-icon-user-solid">Education</h2>
+            <h3>
+              <span>Bachelor: Financial Management</span>
+              <br />
+              <span>2013 - 2017</span>
+              <br />
+              <span>YunCheng University</span>
+            </h3>
+          </div>
         </div>
-      </main>
+        
+        <div class="inlineBlock"></div>
+      </div>
     </article>
   </div>
 </template>
@@ -83,7 +140,7 @@ export default {
             {
               value: [100, 80, 70, 70, 80, 90],
               name: "skill score",
-            }
+            },
           ],
         },
       ],
@@ -92,9 +149,7 @@ export default {
   },
 
   methods: {
-    initRadarMap() {
-
-    },
+    initRadarMap() {},
   },
 };
 </script>
@@ -111,6 +166,12 @@ article {
   margin: 0 auto;
   overflow: auto;
   padding: 1em;
+  border: 1px solid green;
+}
+
+.flexLayout {
+  display: flex;
+  justify-content: space-between;
 }
 
 .parent {
@@ -120,6 +181,7 @@ article {
 
 .inlineBlock {
   display: inline-block;
+  vertical-align: top;
 }
 
 .textLeft {
