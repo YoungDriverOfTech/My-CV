@@ -2,7 +2,7 @@
   <div class="parent">
     <article>
       <header class="textLeft">
-       <h1>XIAOLE LIANG</h1>
+        <h1>XIAOLE LIANG</h1>
         <p>
           Motivated Sales Associate with 5 years of experience boosting sales
           and customer loyalty through individualized service. Resourceful
@@ -19,33 +19,53 @@
         <div class="inlineBlock textLeft">
           <!-- contact -->
           <div>
-            <h2 class="el-icon-user-solid">Contact</h2>
-            <h3>Address</h3>
-            <p>Tokyo edogawa koiwa</p>
+            <div class="el-icon-user-solid parentTitle">Contact</div>
+            <div class="subTitle">Address</div>
+            <span>Tokyo edogawa koiwa</span><br><br>
 
-            <h3>Phone</h3>
-            <p>23333333333</p>
+            <div class="subTitle">Github</div>
+            <span>23333333333</span><br><br>
 
-            <h3>Address</h3>
-            <p>23333333333@gmail.com</p>
-          </div>
+            <div class="subTitle">Email</div>
+            <span>23333333333@gmail.com</span><br><br>
+
+            <div class="subTitle">LinkedIn</div>
+            <span>23333333333@gmail.com</span><br><br>
+
+            <div class="subTitle">My Blog</div>
+            <span>23333333333@gmail.com</span>
+          </div><br>
+
+          <!-- language -->
+          <div>
+            <div class="el-icon-user-solid parentTitle">Language</div>
+            <div class="subTitle">English</div>
+            <span>TOEIC:820(Listening And Reading)</span><br><br>
+
+            <div class="subTitle">Japanese</div>
+            <span>JLPT N1:121</span><br>
+            <span>JLPT N2:137</span><br><br>
+
+            <div class="subTitle">Chinese</div>
+            <span>Native Speaker</span>
+          </div><br>
 
           <!-- skill -->
           <div>
-            <h2 class="el-icon-s-opportunity">Skills</h2>
+            <div class="el-icon-user-solid parentTitle">Skills</div>
             <div id="skill-area" style="width: 200px; height: 200px"></div>
           </div>
         </div>
 
         <!-- experiences and education -->
-        <div class="inlineBlock">
+        <div class="inlineBlock textLeft">
           <!-- experience -->
-          <h2 class="el-icon-user-solid">Experience</h2>
+          <div class="el-icon-user-solid parentTitle">Experience</div>
           <div>
             <h3>
-              May 2015 - current 株式会社CPS
+              <span>株式会社Q And F</span>
               <br />
-              <span>May 2016 - current</span>
+              <span>2021/4 - current</span>
             </h3>
             <ul>
               <li>Effectively upsold products by introducing .</li>
@@ -58,9 +78,9 @@
 
           <div>
             <h3>
-              May 2015 - current 株式会社GSD
+              <span>株式会社GSD</span>
               <br />
-              <span>May 2016 - current</span>
+              <span>2020/4 - 2021/3</span>
             </h3>
             <ul>
               <li>Effectively upsold products by introducing .</li>
@@ -73,9 +93,9 @@
 
           <div>
             <h3>
-              May 2015 - current 株式会社GSD
+              <span>株式会社CPS</span>
               <br />
-              <span>May 2016 - current</span>
+              <span>2019/2 - 2020/3</span>
             </h3>
             <ul>
               <li>Effectively upsold products by introducing.</li>
@@ -88,7 +108,7 @@
 
           <!-- Education -->
           <div>
-            <h2 class="el-icon-user-solid">Education</h2>
+            <div class="el-icon-user-solid parentTitle">Education</div>
             <h3>
               <span>Bachelor: Financial Management</span>
               <br />
@@ -98,7 +118,7 @@
             </h3>
           </div>
         </div>
-        
+
         <div class="inlineBlock"></div>
       </div>
     </article>
@@ -161,7 +181,7 @@ export default {
 
 article {
   width: 21cm;
-  min-height: 29.7cm;
+  min-height: 28cm;
   background-color: white;
   margin: 0 auto;
   overflow: auto;
@@ -186,5 +206,15 @@ article {
 
 .textLeft {
   text-align: left;
+}
+
+.subTitle {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.parentTitle {
+  font-size: 1.6em;
+  font-weight: 700;
 }
 </style>
