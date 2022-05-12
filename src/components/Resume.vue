@@ -120,9 +120,9 @@
             <h3>
               <span>Bachelor: Financial Management</span>
               <br>
-              <span>2013 - 2017</span>
+              <span>Period: 2013 - 2017</span>
               <br>
-              <span>YunCheng University</span>
+              <span>University: YunCheng University</span>
             </h3>
           </div>
         </div>
