@@ -1,16 +1,17 @@
 <template>
   <div class="alignCenter">
-    <!-- header -->
     <Header />
 
-    <!-- BasicInfo -->
     <BasicInfo />
+
+    <LanguageLearning />
   </div>
 </template>
 
 <script>
 import Header from "./Header.vue"
 import BasicInfo from "./BasicInfo.vue"
+import LanguageLearning from "./LanguageLearning.vue"
 
 export default {
   name: "Home",
@@ -19,7 +20,8 @@ export default {
   },
   components: {
     Header,
-    BasicInfo
+    BasicInfo,
+    LanguageLearning
   },
 
   mounted() {},
