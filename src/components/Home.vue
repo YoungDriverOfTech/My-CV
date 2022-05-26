@@ -5,6 +5,8 @@
     <BasicInfo />
 
     <LanguageLearning />
+
+    <ItLearning />
   </div>
 </template>
 
@@ -12,6 +14,7 @@
 import Header from "./Header.vue"
 import BasicInfo from "./BasicInfo.vue"
 import LanguageLearning from "./LanguageLearning.vue"
+import ItLearning from "./ItLearning.vue"
 
 export default {
   name: "Home",
@@ -21,7 +24,8 @@ export default {
   components: {
     Header,
     BasicInfo,
-    LanguageLearning
+    LanguageLearning,
+    ItLearning
   },
 
   mounted() {},
