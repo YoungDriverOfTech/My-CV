@@ -1,7 +1,7 @@
 <template>
   <!-- header -->
   <div class="header">
-    <div class="titleFontStyle el-icon-star-on">Liang's Online Resume</div>
+    <div class="titleFontStyle">Liang's Online Resume</div>
     <div class="navStyle">
       <el-row>
         <el-button type="primary" round>About me</el-button>
@@ -42,7 +42,7 @@ export default {
   color: white;
   font-size: 1.6em;
   font-weight: 700;
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 .navStyle {
