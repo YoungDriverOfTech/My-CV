@@ -43,6 +43,7 @@ export default {
   font-size: 1.6em;
   font-weight: 700;
   margin-top: 0px;
+  padding-top: 10px;
 }
 
 .navStyle {
