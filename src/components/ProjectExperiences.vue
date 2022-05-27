@@ -5,6 +5,8 @@
     <Experiences1 />
 
     <Experiences2 />
+
+    <Experiences3 />
   </div>
 </template>
 
@@ -12,6 +14,7 @@
 import Header from "./common/Header.vue"
 import Experiences1 from "./projects/Experiences1.vue"
 import Experiences2 from "./projects/Experiences2.vue"
+import Experiences3 from "./projects/Experiences3.vue"
 
 export default {
   name: "ProjectExperiences",
@@ -22,6 +25,7 @@ export default {
     Header,
     Experiences1,
     Experiences2,
+    Experiences3,
 
   },
 
