@@ -2,6 +2,8 @@
   <div class="alignCenter">
     <Header />
 
+    <ChooseLang />
+
     <BasicInfo />
 
     <LanguageLearning />
@@ -15,6 +17,7 @@ import Header from "../components/common/Header.vue"
 import BasicInfo from "../components/aboutme/BasicInfo.vue"
 import LanguageLearning from "../components/aboutme/LanguageLearning.vue"
 import ItLearning from "../components/aboutme/ItLearning.vue"
+import ChooseLang from "../components/common/ChooseLang.vue"
 
 export default {
   name: "Home",
@@ -25,7 +28,8 @@ export default {
     Header,
     BasicInfo,
     LanguageLearning,
-    ItLearning
+    ItLearning,
+    ChooseLang
   },
 
   mounted() {},
