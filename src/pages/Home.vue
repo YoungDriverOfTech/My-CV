@@ -11,10 +11,10 @@
 </template>
 
 <script>
-import Header from "./common/Header.vue"
-import BasicInfo from "./aboutme/BasicInfo.vue"
-import LanguageLearning from "./aboutme/LanguageLearning.vue"
-import ItLearning from "./aboutme/ItLearning.vue"
+import Header from "../components/common/Header.vue"
+import BasicInfo from "../components/aboutme/BasicInfo.vue"
+import LanguageLearning from "../components/aboutme/LanguageLearning.vue"
+import ItLearning from "../components/aboutme/ItLearning.vue"
 
 export default {
   name: "Home",

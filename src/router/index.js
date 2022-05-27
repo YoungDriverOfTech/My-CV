@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Resume from '@/components/resume/Resume'
-import Home from '@/components/Home'
-import ProjectExperiences from '@/components/ProjectExperiences'
+import ResumePage from '@/pages/ResumePage'
+import Home from '@/pages/Home'
+import ProjectExperiences from '@/pages/ProjectExperiences'
 
 Vue.use(Router)
 
@@ -14,9 +14,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/resume',
-      name: 'Resume',
-      component: Resume
+      path: '/resumepage',
+      name: 'ResumePage',
+      component: ResumePage
     },
     {
       path: '/project',

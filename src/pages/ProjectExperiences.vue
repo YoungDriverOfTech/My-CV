@@ -19,14 +19,14 @@
 </template>
 
 <script>
-import Header from "./common/Header.vue"
-import Experiences1 from "./projects/Experiences1.vue"
-import Experiences2 from "./projects/Experiences2.vue"
-import Experiences3 from "./projects/Experiences3.vue"
-import Experiences4 from "./projects/Experiences4.vue"
-import Experiences5 from "./projects/Experiences5.vue"
-import Experiences6 from "./projects/Experiences6.vue"
-import Experiences7 from "./projects/Experiences7.vue"
+import Header from "../components/common/Header.vue"
+import Experiences1 from "../components/projects/Experiences1.vue"
+import Experiences2 from "../components/projects/Experiences2.vue"
+import Experiences3 from "../components/projects/Experiences3.vue"
+import Experiences4 from "../components/projects/Experiences4.vue"
+import Experiences5 from "../components/projects/Experiences5.vue"
+import Experiences6 from "../components/projects/Experiences6.vue"
+import Experiences7 from "../components/projects/Experiences7.vue"
 
 export default {
   name: "ProjectExperiences",
