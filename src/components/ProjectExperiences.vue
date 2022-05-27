@@ -4,12 +4,14 @@
 
     <Experiences1 />
 
+    <Experiences2 />
   </div>
 </template>
 
 <script>
 import Header from "./common/Header.vue"
 import Experiences1 from "./projects/Experiences1.vue"
+import Experiences2 from "./projects/Experiences2.vue"
 
 export default {
   name: "ProjectExperiences",
@@ -19,6 +21,7 @@ export default {
   components: {
     Header,
     Experiences1,
+    Experiences2,
 
   },
 
