@@ -1,5 +1,5 @@
 const messages = {
-  hello: 'こんにちは、世界'
+  hello: '你好 世界'
 }
 
 export default messages

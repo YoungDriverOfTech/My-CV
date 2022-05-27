@@ -1,5 +1,5 @@
-module.exports = {
-  messages: {
-    hello: 'hello world'
-  }
+const messages = {
+  hello: 'hello world'
 }
+
+export default messages

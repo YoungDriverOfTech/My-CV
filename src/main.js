@@ -6,28 +6,17 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import router from './router'
 import VueI18n from 'vue-i18n';
+import messages from './lang/LanguageMessages'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI);
 
 // internationalize
 Vue.use(VueI18n)
-const messages = {
-  en: {
-    message: {
-      hello: 'hello world'
-    }
-  },
-  ja: {
-    message: {
-      hello: 'こんにちは、世界'
-    }
-  }
-}
 
 const i18n = new VueI18n({
-  locale: 'en', // 设置地区
-  messages: messages, // 设置地区信息
+  locale: 'zh', // set zone
+  messages: messages, // set zone messages
 })
 
 /* eslint-disable no-new */
