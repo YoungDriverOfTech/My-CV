@@ -1,9 +1,22 @@
 <template>
   <!-- header -->
   <div class="header">
-    <div class="titleFontStyle">Liang's Online Resume</div>
+    <div class="titleFontStyle">
+      <div>Liang's Online Resume</div>
+      <el-dropdown>
+        <span class="el-dropdown-link">
+          Language<i class="el-icon-arrow-down el-icon--right"></i>
+        </span>
+        <el-dropdown-menu slot="dropdown">
+          <el-dropdown-item>English</el-dropdown-item>
+          <el-dropdown-item>日本語</el-dropdown-item>
+          <el-dropdown-item>中文</el-dropdown-item>
+        </el-dropdown-menu>
+      </el-dropdown>
+    </div>
+
     <div class="navStyle">
-      <el-row>
+      <el-row  class="">
         <router-link to="/">
           <el-button type="primary" round> About me </el-button>
         </router-link>
@@ -15,6 +28,7 @@
         <router-link to="/project">
           <el-button type="warning" round> Experiences </el-button>
         </router-link>
+
       </el-row>
     </div>
   </div>
@@ -37,8 +51,6 @@ export default {
 <style scoped>
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 .header {
@@ -52,14 +64,27 @@ export default {
   font-weight: 700;
   margin-top: 0px;
   padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navStyle {
-  /* display: flex; */
   margin-top: 18px;
-  text-align: center;
   color: white;
   font-size: 1.2em;
   font-weight: 500;
+}
+
+.flexLayout {
+  display: flex;
+  justify-content: space-around;
+}
+
+.el-dropdown-link {
+  cursor: pointer;
+  color: white;
+}
+.el-icon-arrow-down {
+  font-size: 12px;
 }
 </style>
