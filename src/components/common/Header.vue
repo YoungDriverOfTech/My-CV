@@ -4,17 +4,17 @@
     <div class="titleFontStyle">Liang's Online Resume</div>
     <div class="navStyle">
       <el-row>
-        <el-button type="primary" round>
-          <router-link to="/">About me</router-link>
-        </el-button>
+        <router-link to="/">
+          <el-button type="primary" round> About me </el-button>
+        </router-link>
 
-        <el-button type="success" round>
-          <router-link to="/resumepage">Resume</router-link>
-        </el-button>
+        <router-link to="/resumepage">
+          <el-button type="success" round> Resume </el-button>
+        </router-link>
 
-        <el-button type="warning" round>
-          <router-link to="/project">Experiences</router-link>
-        </el-button>
+        <router-link to="/project">
+          <el-button type="warning" round> Experiences </el-button>
+        </router-link>
       </el-row>
     </div>
   </div>
