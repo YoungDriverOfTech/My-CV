@@ -13,6 +13,8 @@
     <Experiences5 />
 
     <Experiences6 />
+
+    <Experiences7 />
   </div>
 </template>
 
@@ -24,6 +26,7 @@ import Experiences3 from "./projects/Experiences3.vue"
 import Experiences4 from "./projects/Experiences4.vue"
 import Experiences5 from "./projects/Experiences5.vue"
 import Experiences6 from "./projects/Experiences6.vue"
+import Experiences7 from "./projects/Experiences7.vue"
 
 export default {
   name: "ProjectExperiences",
@@ -37,7 +40,8 @@ export default {
     Experiences3,
     Experiences4,
     Experiences5,
-    Experiences6
+    Experiences6,
+    Experiences7
   },
 
   mounted() {},
