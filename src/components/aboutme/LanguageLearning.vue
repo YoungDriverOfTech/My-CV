@@ -11,7 +11,7 @@
         考到了托业820分
 
         <div class="block">
-          <el-image style="width: 100px; height: 100px" :src="require('../assets/images/bplus.jpg')"></el-image>
+          <el-image style="width: 100px; height: 100px" :src="require('../../assets/images/bplus.jpg')"></el-image>
         </div>
       </template>
     </ContentsContainer>
@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import ContentsContainer from "./common/ContentsContainer.vue";
+import ContentsContainer from "../common/ContentsContainer.vue";
 
 export default {
   name: "LanguageLearning",

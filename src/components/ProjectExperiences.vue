@@ -2,30 +2,24 @@
   <div class="alignCenter">
     <Header />
 
-    <BasicInfo />
+    <Experiences1 />
 
-    <LanguageLearning />
-
-    <ItLearning />
   </div>
 </template>
 
 <script>
 import Header from "./common/Header.vue"
-import BasicInfo from "./aboutme/BasicInfo.vue"
-import LanguageLearning from "./aboutme/LanguageLearning.vue"
-import ItLearning from "./aboutme/ItLearning.vue"
+import Experiences1 from "./projects/Experiences1.vue"
 
 export default {
-  name: "Home",
+  name: "ProjectExperiences",
   data() {
     return {};
   },
   components: {
     Header,
-    BasicInfo,
-    LanguageLearning,
-    ItLearning
+    Experiences1,
+
   },
 
   mounted() {},

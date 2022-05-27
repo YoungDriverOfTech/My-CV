@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import ContentsContainer from "./common/ContentsContainer.vue";
+import ContentsContainer from "../common/ContentsContainer.vue";
 
 export default {
   name: "ItLearning",

@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import ContentsContainer from "./common/ContentsContainer.vue";
+import ContentsContainer from "../common/ContentsContainer.vue";
 
 export default {
   name: "BasicInfo",
@@ -31,4 +31,5 @@ export default {
 </script>
 
 <style scoped>
+
 </style>
