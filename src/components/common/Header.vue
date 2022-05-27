@@ -7,16 +7,16 @@
         <span class="el-dropdown-link">
           Language<i class="el-icon-arrow-down el-icon--right"></i>
         </span>
-        <el-dropdown-menu slot="dropdown">
-          <el-dropdown-item>English</el-dropdown-item>
-          <el-dropdown-item>日本語</el-dropdown-item>
-          <el-dropdown-item>中文</el-dropdown-item>
+        <el-dropdown-menu v-on:click.native="changeLang" slot="dropdown">
+          <el-dropdown-item value=0>English</el-dropdown-item>
+          <el-dropdown-item value=1>日本語</el-dropdown-item>
+          <el-dropdown-item value=2>中文</el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
     </div>
 
     <div class="navStyle">
-      <el-row  class="">
+      <el-row class="">
         <router-link to="/">
           <el-button type="primary" round> About me </el-button>
         </router-link>
@@ -28,7 +28,6 @@
         <router-link to="/project">
           <el-button type="warning" round> Experiences </el-button>
         </router-link>
-
       </el-row>
     </div>
   </div>
@@ -44,7 +43,22 @@ export default {
 
   mounted() {},
 
-  methods: {},
+  methods: {
+    // change language
+    changeLang: function (event) {
+      const itemValue = event.target.value;
+      if (itemValue === 0) {
+        this.$i18n.locale = "en";
+        console.log("aaaa")
+      } else if (itemValue === 1) {
+        this.$i18n.locale = "ja";
+        console.log("bbbb")
+      } else {
+        this.$i18n.locale = "zh";
+        console.log("cccc")
+      }
+    },
+  },
 };
 </script>
 
