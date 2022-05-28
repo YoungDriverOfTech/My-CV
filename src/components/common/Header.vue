@@ -2,7 +2,7 @@
   <!-- header -->
   <div class="header">
     <div class="titleFontStyle">
-      <div>Liang's Online Resume</div>
+      <div>{{ $t("message.whoResume") }}</div>
       <el-dropdown>
         <span class="el-dropdown-link">
           Language<i class="el-icon-arrow-down el-icon--right"></i>
@@ -18,15 +18,15 @@
     <div class="navStyle">
       <el-row class="">
         <router-link to="/">
-          <el-button type="primary" plain> About me </el-button>
+          <el-button type="primary" plain>{{ $t("message.aboutMe") }}</el-button>
         </router-link>
 
         <router-link to="/resumepage">
-          <el-button type="success" plain> Resume </el-button>
+          <el-button type="success" plain>{{ $t("message.resume") }}</el-button>
         </router-link>
 
         <router-link to="/project">
-          <el-button type="warning" plain> Experiences </el-button>
+          <el-button type="warning" plain>{{ $t("message.experiences") }}</el-button>
         </router-link>
       </el-row>
     </div>
