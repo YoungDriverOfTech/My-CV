@@ -4,18 +4,17 @@
 
     <BasicInfo />
 
-    <LanguageLearning />
+    <PersonalInfo />
 
-    <ItLearning />
+    <ProfessionalSkills />
   </div>
 </template>
 
 <script>
 import Header from "../components/common/Header.vue"
 import BasicInfo from "../components/aboutme/BasicInfo.vue"
-import LanguageLearning from "../components/aboutme/LanguageLearning.vue"
-import ItLearning from "../components/aboutme/ItLearning.vue"
-import ChooseLang from "../components/common/ChooseLang.vue"
+import PersonalInfo from "../components/aboutme/PersonalInfo.vue"
+import ProfessionalSkills from "../components/aboutme/ProfessionalSkills.vue"
 
 export default {
   name: "Home",
@@ -25,9 +24,8 @@ export default {
   components: {
     Header,
     BasicInfo,
-    LanguageLearning,
-    ItLearning,
-    ChooseLang
+    PersonalInfo,
+    ProfessionalSkills,
   },
 
   mounted() {},
