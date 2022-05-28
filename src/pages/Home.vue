@@ -2,8 +2,6 @@
   <div class="alignCenter">
     <Header />
 
-    <ChooseLang />
-
     <BasicInfo />
 
     <LanguageLearning />
