@@ -18,15 +18,15 @@
     <div class="navStyle">
       <el-row class="">
         <router-link to="/">
-          <el-button type="primary" round> About me </el-button>
+          <el-button type="primary" plain> About me </el-button>
         </router-link>
 
         <router-link to="/resumepage">
-          <el-button type="success" round> Resume </el-button>
+          <el-button type="success" plain> Resume </el-button>
         </router-link>
 
         <router-link to="/project">
-          <el-button type="warning" round> Experiences </el-button>
+          <el-button type="warning" plain> Experiences </el-button>
         </router-link>
       </el-row>
     </div>
