@@ -1,47 +1,73 @@
 <template>
   <div>
     <ContentsContainer>
-      <template slot="title"> 职业技能 </template>
+      <template slot="title"> {{ $t("message.skills") }} </template>
       <template slot="contents">
         <el-tabs v-model="activeName" @tab-click="handleClick">
           <!-- IT skills -->
           <el-tab-pane label="Tech" name="first">
-            <el-table
-              :data="tableData"
-              style="width: 100%"
-              :row-class-name="tableRowClassName"
-            >
-              <el-table-column prop="skill" label="技能" width="180">
-              </el-table-column>
-              <el-table-column prop="familiarity" label="熟练度" width="180">
-              </el-table-column>
-            </el-table>
+            <strong>{{ $t("message.dataSkill") }}: </strong
+            >{{ $t("message.datafamiliarity")
+            }}<el-progress :percentage="75"></el-progress>
+            <br />
+
+            <strong>{{ $t("message.javaSkill") }}: </strong
+            >{{ $t("message.javaFamiliarity")
+            }}<el-progress :percentage="90"></el-progress>
+            <br />
+
+            <strong>{{ $t("message.springSkill") }}: </strong
+            >{{ $t("message.springFamiliarity")
+            }}<el-progress :percentage="80"></el-progress>
+            <br />
+
+            <strong>{{ $t("message.dbSkill") }}: </strong
+            >{{ $t("message.dbFamiliarity")
+            }}<el-progress :percentage="75"></el-progress>
+            <br />
+
+            <strong>{{ $t("message.linuxSkill") }}: </strong
+            >{{ $t("message.linuxFamiliarity")
+            }}<el-progress :percentage="60"></el-progress>
+            <br />
+
+            <strong>{{ $t("message.frontSkill") }}: </strong
+            >{{ $t("message.frontFamiliarity")
+            }}<el-progress :percentage="70"></el-progress>
+            <br />
+
+            <strong>{{ $t("message.frongtFrameworkSkill") }}: </strong
+            >{{ $t("message.frongtFrameworkFamiliarity")
+            }}<el-progress :percentage="70"></el-progress>
+            <br />
           </el-tab-pane>
 
           <!-- Languages -->
           <el-tab-pane label="Languages" name="second">
-            <strong>英语Toeic: </strong>820<el-progress
-              :percentage="83"
-            ></el-progress>
+            <strong>{{ $t("message.englishToeic") }}: </strong
+            >{{ $t("message.toeicScore")
+            }}<el-progress :percentage="83"></el-progress>
             <br />
 
-            <strong>日语N1: </strong>121<el-progress
-              :percentage="67"
-            ></el-progress>
+            <strong>{{ $t("message.jlptN1") }}: </strong
+            >{{ $t("message.n1Score")
+            }}<el-progress :percentage="67"></el-progress>
             <br />
 
-            <strong>日语N2: </strong>137<el-progress
-              :percentage="76"
-            ></el-progress>
+            <strong>{{ $t("message.jlptN2") }}: </strong
+            >{{ $t("message.n2Score")
+            }}<el-progress :percentage="76"></el-progress>
             <br />
 
-            <strong>中文: </strong>母语者<el-progress
-              :percentage="100"
-            ></el-progress>
+            <strong>{{ $t("message.chinese") }}: </strong
+            >{{ $t("message.chineseScore")
+            }}<el-progress :percentage="100"></el-progress>
 
             <!-- certificate picture -->
-            <br>
-            <el-link type="success"><strong>Click picture to preview.</strong></el-link>
+            <br />
+            <el-link type="success"
+              ><strong>{{ $t("message.preViewMessage") }}</strong></el-link
+            >
             <div class="demo-image__preview">
               <el-image
                 style="width: 100px; height: 100px"
@@ -79,36 +105,7 @@ export default {
   data() {
     return {
       activeName: "first",
-      tableData: [
-        {
-          skill: "数据结构和算法",
-          familiarity: "熟悉",
-        },
-        {
-          skill: "Java",
-          familiarity: "精通",
-        },
-        {
-          skill: "Spring Framework",
-          familiarity: "熟悉",
-        },
-        {
-          skill: "数据库",
-          familiarity: "熟悉",
-        },
-        {
-          skill: "Linux",
-          familiarity: "熟悉",
-        },
-        {
-          skill: "HTML/CSS/JS",
-          familiarity: "熟悉",
-        },
-        {
-          skill: "Vue/React",
-          familiarity: "熟悉",
-        },
-      ],
+      tableData: this.$t("message.skillTableData"),
 
       // picture address
       N1url: require("../../assets/images/N1.jpg"),

@@ -37,6 +37,50 @@ const messages = {
 
   workPeriodLabel: "経験年数",
   workPeriodValue: "3.5 年",
+
+  // skills
+  skills: "スキル",
+
+  tech: "技術",
+  languages: "言語",
+
+  skill: "スキル",
+  familiarity: "詳しさ",
+
+  dataSkill: "データ構造とアルゴリズム",
+  datafamiliarity: "習熟",
+
+  javaSkill: "Java",
+  javaFamiliarity: "上手",
+
+  springSkill: "Springフレームワーク",
+  springFamiliarity: "習熟",
+  
+  dbSkill: "データベース",
+  dbFamiliarity: "習熟",
+
+  linuxSkill: "Linux",
+  linuxFamiliarity: "経験したことある",
+
+  frontSkill: "HTML/CSS/JS",
+  frontFamiliarity: "習熟",
+
+  frongtFrameworkSkill: "Vue/React",
+  frongtFrameworkFamiliarity: "習熟",
+
+  englishToeic: "英語Toeic",
+  toeicScore: "820",
+
+  jlptN1: "日本語一級",
+  n1Score: "121",
+
+  jlptN2: "日本語二級",
+  n2Score: "137",
+
+  chinese: "中国語",
+  chineseScore: "母語",
+
+  preViewMessage: "画像をクリックすると、プレビューができます"
 }
 
 export default messages

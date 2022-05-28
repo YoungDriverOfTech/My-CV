@@ -35,6 +35,52 @@ const messages = {
 
   workPeriodLabel: "WorkPeriod",
   workPeriodValue: "3.5 years",
+
+  // skills
+  skills: "Skills",
+
+  // todo can not bind into attributes
+  tech: "Tech",
+  languages: "Languages",
+
+  // todo can not bind into attributes
+  skill: "Skill",
+  familiarity: "Familiarity",
+
+  dataSkill: "Data Structure and Algorithms",
+  datafamiliarity: "Skillful",
+
+  javaSkill: "Java",
+  javaFamiliarity: "Advanaced",
+
+  springSkill: "Spring Framework",
+  springFamiliarity: "Skillful",
+  
+  dbSkill: "DataBase",
+  dbFamiliarity: "Skillful",
+
+  linuxSkill: "Linux",
+  linuxFamiliarity: "Experienced",
+
+  frontSkill: "HTML/CSS/JS",
+  frontFamiliarity: "Skillful",
+
+  frongtFrameworkSkill: "Vue/React",
+  frongtFrameworkFamiliarity: "Skillful",
+
+  englishToeic: "English Toeic",
+  toeicScore: "820",
+
+  jlptN1: "JLPT N1",
+  n1Score: "121",
+
+  jlptN2: "JLPT N2",
+  n2Score: "137",
+
+  chinese: "Chinese",
+  chineseScore: "Native Speaker",
+
+  preViewMessage: "Click picture to preview."
 }
 
 export default messages

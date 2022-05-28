@@ -37,6 +37,50 @@ const messages = {
 
   workPeriodLabel: "工作年限",
   workPeriodValue: "3.5 年",
+
+  // skills
+  skills: "技能",
+
+  tech: "技能",
+  languages: "语言",
+
+  skill: "技能",
+  familiarity: "熟练度",
+
+  dataSkill: "数据结构和算法",
+  datafamiliarity: "熟悉",
+
+  javaSkill: "Java",
+  javaFamiliarity: "精通",
+
+  springSkill: "Spring框架",
+  springFamiliarity: "熟悉",
+  
+  dbSkill: "数据库",
+  dbFamiliarity: "熟悉",
+
+  linuxSkill: "Linux",
+  linuxFamiliarity: "有使用经验",
+
+  frontSkill: "HTML/CSS/JS",
+  frontFamiliarity: "熟悉",
+
+  frongtFrameworkSkill: "Vue/React",
+  frongtFrameworkFamiliarity: "熟悉",
+
+  englishToeic: "英语托业",
+  toeicScore: "820",
+
+  jlptN1: "日语N1",
+  n1Score: "121",
+
+  jlptN2: "日语N2",
+  n2Score: "137",
+
+  chinese: "中文",
+  chineseScore: "母语",
+
+  preViewMessage: "可点击图片预览"
 }
 
 export default messages
