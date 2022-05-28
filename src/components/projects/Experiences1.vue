@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="marginTop">
     <ContentsContainer>
       <template slot="title">
         Windows Batch自动化项目
@@ -31,5 +31,7 @@ export default {
 </script>
 
 <style scoped>
-
+.marginTop {
+  margin-top: 150px;
+}
 </style>

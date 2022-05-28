@@ -70,6 +70,11 @@ export default {
 .header {
   height: 130px;
   background-color: #4050b5;
+  position: fixed;
+  z-index: 999;/*最前面へ*/
+  top:0;/*位置指定*/
+  left:0;/*位置指定*/
+  width: 100%;
 }
 
 .titleFontStyle {

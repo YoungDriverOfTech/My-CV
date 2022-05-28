@@ -1,5 +1,6 @@
 const messages = {
 
+  // ------------- about me page -------------
   // header info
   hello: "hello world",
   whoResume: "Liang's Resume",
@@ -81,6 +82,18 @@ const messages = {
   chineseScore: "Native Speaker",
 
   preViewMessage: "Click picture to preview."
+  // ------------- about me page -------------
+
+
+  // ------------- resume page -------------
+
+
+  // ------------- resume page -------------
+
+
+  // ------------- projects page -------------
+
+  // ------------- projects page -------------
 }
 
 export default messages

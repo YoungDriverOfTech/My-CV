@@ -1,5 +1,5 @@
 <template>
-  <div class="alignCenter">
+  <div class="marginTop">
     <Header />
 
     <BasicInfo />
@@ -39,5 +39,9 @@ export default {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.marginTop {
+  margin-top: 150px;
 }
 </style>

@@ -81,6 +81,18 @@ const messages = {
   chineseScore: "母语",
 
   preViewMessage: "可点击图片预览"
+  // ------------- about me page -------------
+
+
+  // ------------- resume page -------------
+
+
+  // ------------- resume page -------------
+
+
+  // ------------- projects page -------------
+
+  // ------------- projects page -------------
 }
 
 export default messages

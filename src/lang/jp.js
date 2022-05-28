@@ -1,4 +1,5 @@
 const messages = {
+  // ------------- about me page -------------
   // header info
   hello: 'こんにちは、世界',
   whoResume: "梁の履歴書",
@@ -81,6 +82,18 @@ const messages = {
   chineseScore: "母語",
 
   preViewMessage: "画像をクリックすると、プレビューができます"
+  // ------------- about me page -------------
+
+
+  // ------------- resume page -------------
+  
+
+  // ------------- resume page -------------
+
+
+  // ------------- projects page -------------
+
+  // ------------- projects page -------------
 }
 
 export default messages
