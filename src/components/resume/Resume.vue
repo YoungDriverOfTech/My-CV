@@ -9,6 +9,7 @@
           expert at learning customer needs, directing to desirable merchandise
           and upselling to meet sales quotas. Committed to strengthening
           customer experiences with positivity and professionalism when
+          
         </p>
       </header>
 
