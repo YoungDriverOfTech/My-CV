@@ -5,6 +5,7 @@ const messages = {
   aboutMe: "关于我",
   resume: "简历",
   experiences: "项目",
+  chooseLanguage: "语言",
 
   // self introduction info
   self: "自我介绍",
@@ -112,6 +113,12 @@ const messages = {
   project3Description: "面向游戏制作厂商，其所发行的游戏需要先经过加密，然后再经由本系统进行加密检查，只有所有的检查都通过，游戏才能正式发售贩卖。",
   project3Duty: ["开发RestFul API", "完成Junit测试的编码", "制作详细设计", "代码审核", "学习会上分享经验和知识"],
   project3TechStack: "Java8, Mysql, Git/Github, Aws, Neuron, Ubuntu, Docker, Jira",
+
+  // project 4
+  project4Name: "海外旅行酒店预订平台",
+  project4Description: "旅游公司可利用本系统团购机票，预订海外酒店，定制化旅行套餐。",
+  project4Duty: ["完成新页面的制造和服务器端代码的编写", "制作弹体测试式样书和单体测试实施", "将谷歌地图导入到本系统中"],
+  project4TechStack: "Java8, Oracle, Jsp, SVN, JavaScript, Struts1, GoogleMap",
 
   // ------------- projects page -------------
 }

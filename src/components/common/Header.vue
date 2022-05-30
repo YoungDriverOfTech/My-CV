@@ -5,7 +5,7 @@
       <div>{{ $t("message.whoResume") }}</div>
       <el-dropdown>
         <span class="el-dropdown-link">
-          Language<i class="el-icon-arrow-down el-icon--right"></i>
+          {{ $t("message.chooseLanguage") }}<i class="el-icon-arrow-down el-icon--right"></i>
         </span>
         <el-dropdown-menu v-on:click.native="changeLang" slot="dropdown">
           <el-dropdown-item value=0>English</el-dropdown-item>
@@ -71,9 +71,9 @@ export default {
   height: 130px;
   background-color: #4050b5;
   position: fixed;
-  z-index: 999;/*最前面へ*/
-  top:0;/*位置指定*/
-  left:0;/*位置指定*/
+  z-index: 999;
+  top:0;
+  left:0;
   width: 100%;
 }
 

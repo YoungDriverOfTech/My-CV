@@ -6,6 +6,7 @@ const messages = {
   aboutMe: "私について",
   resume: "履歴書",
   experiences: "案件経験",
+  chooseLanguage: "言語",
 
   // self introduction info
   self: "自己紹介",
@@ -113,6 +114,12 @@ const messages = {
   project3Description: "ゲームメーカーさん向けのシステムです。ゲームが正式にpublishまで、色々な審査を行い、審査が全部通る場合は、ゲームが販売されることが可能です。",
   project3Duty: ["RestFul APIの開発", "Junit単体テストの作成", "設計書を作成", "ソースレビュー", "勉強会で知識や経験の共有"],
   project3TechStack: "Java8, Mysql, Git/Github, Aws, Neuron, Ubuntu, Docker, Jira",
+
+  // project 4
+  project4Name: "海外旅行ホテル予約システム",
+  project4Description: "旅行会社が本システムを利用して、飛行機チケットを購入、海外のホテルを予約、旅行コースをカスタマイズすることができます。",
+  project4Duty: ["新規画面とサーバーサイドロジック作成", "単体テスト仕様書作成とテストの実施", "Googleマップを本システムに導入"],
+  project4TechStack: "Java8, Oracle, Jsp, SVN, JavaScript, Struts1, GoogleMap",
 
   // ------------- projects page -------------
 }

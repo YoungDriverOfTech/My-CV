@@ -2,11 +2,34 @@
   <div>
     <ContentsContainer>
       <template slot="title">
-        Tourism B2B Hotel Reservation System
+        <span>
+          {{ $t("message.project4Name") }}
+        </span>
+        
       </template>
       <template slot="contents">
-        该项目是B2B旅游酒店预定项目，主要的负责商业公司的组团旅行的酒店预定。
-        我的职责是：coding，设计书改修，bug修正（可以适当提一下google地图的事儿）
+
+        <!-- project description -->
+        <div>
+          <span class="boldFont">{{ $t("message.projectDescLabel") }} </span>: 
+          {{ $t("message.project4Description") }} 
+        </div>
+
+        <!-- my duty -->
+        <div>
+          <span class="boldFont">{{ $t("message.dutyLabel") }}</span> :
+          <ul id="project-1">
+            <li v-for="item,index in $t('message.project4Duty')" :key="index">
+              {{ item }}
+            </li>
+          </ul>
+        </div>
+
+        <!-- tech stack -->
+        <div>
+          <span class="boldFont">{{ $t("message.projectStackLabel") }}</span>: 
+          {{ $t("message.project4TechStack") }} 
+        </div>
       </template>
     </ContentsContainer>
   </div>
@@ -31,5 +54,7 @@ export default {
 </script>
 
 <style scoped>
-
+.boldFont {
+  font-weight: 550;
+}
 </style>

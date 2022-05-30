@@ -7,6 +7,7 @@ const messages = {
   aboutMe: "About me",
   resume: "Resume",
   experiences: "Experiences",
+  chooseLanguage: "Language",
 
   // self introduction info
   self: "Self Introduction",
@@ -113,6 +114,12 @@ const messages = {
   project3Description: "This platform system is used to check whether if a game is encrypted properly. All the checks need to be done before this game published.",
   project3Duty: ["Developing Restful API interfaces", "Writing Junit tests", "Creating application designs", "Reviewing source code", "Shareing thoughts in the study group"],
   project3TechStack: "Java8, Mysql, Git/Github, Aws, Neuron, Ubuntu, Docker",
+
+  // project 4
+  project4Name: "Overseas Trip Hotel Reservation Platform",
+  project4Description: "The tourism companys can use this platform to reserve hotels, customize trip courses and bug airplane ticket.",
+  project4Duty: ["Creating new pages and writing server side code", "Writing unit test design and testing", "Importing Google map into current system"],
+  project4TechStack: "Java8, Oracle, Jsp, SVN, JavaScript, Struts1, GoogleMap",
 
   // ------------- projects page -------------
 }
