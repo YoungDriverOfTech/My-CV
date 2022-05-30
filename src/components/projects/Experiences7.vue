@@ -2,13 +2,34 @@
   <div class="marginTop">
     <ContentsContainer>
       <template slot="title">
-        Order Mock System
+        <span>
+          {{ $t("message.project7Name") }}
+        </span>
+        
       </template>
       <template slot="contents">
-        该项目是AU OnLine Shop的一部分的子系统，主要服务于AU Online shop系统的测试。AU会退出很多促销活动，此系统是用来生成Mock订单的系统。
-        还有一些其他的辅助功能。
 
-        我主要负责：与客户沟通式样，写设计书，coding，bug修正，测试
+        <!-- project description -->
+        <div>
+          <span class="boldFont">{{ $t("message.projectDescLabel") }} </span>: 
+          {{ $t("message.project7Description") }} 
+        </div>
+
+        <!-- my duty -->
+        <div>
+          <span class="boldFont">{{ $t("message.dutyLabel") }}</span> :
+          <ul id="project-1">
+            <li v-for="item,index in $t('message.project7Duty')" :key="index">
+              {{ item }}
+            </li>
+          </ul>
+        </div>
+
+        <!-- tech stack -->
+        <div>
+          <span class="boldFont">{{ $t("message.projectStackLabel") }}</span>: 
+          {{ $t("message.project7TechStack") }} 
+        </div>
       </template>
     </ContentsContainer>
   </div>
@@ -35,5 +56,9 @@ export default {
 <style scoped>
 .marginTop {
   margin-top: 150px;
+}
+
+.boldFont {
+  font-weight: 550;
 }
 </style>

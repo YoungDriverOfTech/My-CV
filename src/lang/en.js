@@ -133,6 +133,12 @@ const messages = {
   project6Duty: ["Writing application design and coding", "Creating common vue components", "Writing Junit test", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
   project6TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, Vue.js, TypeScript, AWS, CI/CD, Flyway, Gradle",
 
+  // project 7
+  project7Name: "Online Shop File Management System",
+  project7Description: "This system is used to manipulate the files, related to business, stored in aws s3. It can upload, download files from the s3 and also can delete directly.",
+  project7Duty: ["Writing application design and coding", "Creating react.js components", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
+  project7TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, React.js, TypeScript, AWS, CI/CD, Gradle, Node.js",
+
   // ------------- projects page -------------
 }
 

@@ -132,6 +132,11 @@ const messages = {
   project6Duty: ["设计书做成以及机能实装", "Vue组件实装", "Junit单体测试时装", "bug修正以及回答QA", "审核代码和设计书", "上线部署"],
   project6TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, Vue.js, TypeScript, AWS, CI/CD, Flyway, Gradle",
   
+  // project 7
+  project7Name: "在线商城文件管理系统",
+  project7Description: "本系统可以对存储在S3上面的业务关联文件进行直接操作，比如上传下载，增加删除等。",
+  project7Duty: ["设计书做成和机能时装", "React组件实装", "bug修正和回答QA", "审核代码和设计书", "上线部署"],
+  project7TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, React.js, TypeScript, AWS, CI/CD, Gradle, Node.js",
   // ------------- projects page -------------
 }
 
