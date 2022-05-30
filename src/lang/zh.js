@@ -95,11 +95,17 @@ const messages = {
   projectStackLabel: "技术栈",
   dutyLabel: "我的职责",
 
+  // project 1
   project1Name: "日志批处理系统",
   project1Description: "此系统处理其他服务器发来的日志文件，删除其中不必要的部分，然后格式化剩下的日志文件内容，转发给别的服务器",
   project1Duty: ["与客户交流确认式样", "做成详细设计书，单体设计书和结合测试书", "给coding团队说明式样", "给客户做演示"],
   project1TechStack: "Window Batch, Excel, 千手",
 
+  // project 2
+  project2Name: "B2B视频贩卖系统",
+  project2Description: "2019年日本消费税由8%上涨至10%，要对原本项目的页面表示以及服务器点的代码进行修正以满足业务的要求。",
+  project2Duty: ["页面表示和服务器端逻辑的修正", "单体测试书做成和单体测试作业", "bug修正和回答QA", "文书整理"],
+  project2TechStack: "Java, VB.Net, Tomcat, Linux, HirDB, SVN, FTP",
 
   // ------------- projects page -------------
 }

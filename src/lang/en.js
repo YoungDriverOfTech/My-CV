@@ -96,10 +96,18 @@ const messages = {
   projectStackLabel: "Tech Stack",
   dutyLabel: "My Duty",
 
+  // project 1
   project1Name: "Window Batch System",
   project1Description: "This system dealing with the logs from the other servers, deleting unnecessary parts and formating these logs, sending them to another server.",
   project1Duty: ["Communicating with customers and confirming specification", "Writing design and test ducuments", "Explanation specification for coding team", "Presentation for customers"],
   project1TechStack: "Window Batch, Excel, Senjun",
+
+  // project 2
+  project2Name: "Food Online Shop",
+  project2Description: "This is a B2B food online shop system that needed modification to meet the sale tax changing from 8% to 10% in 2019.",
+  project2Duty: ["Modifying existed pages and server side logic", "Writing test ducuments and doing unit test", "Fixing bugs and answering QA", "Presentation for customers"],
+  project2TechStack: "Java, VB.Net, Tomcat, Linux, HirDB, SVN, FTP",
+
   // ------------- projects page -------------
 }
 

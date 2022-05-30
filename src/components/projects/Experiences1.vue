@@ -11,13 +11,13 @@
 
         <!-- project description -->
         <div>
-          <span>{{ $t("message.projectDescLabel") }} </span>: 
+          <span class="boldFont">{{ $t("message.projectDescLabel") }} </span>: 
           {{ $t("message.project1Description") }} 
         </div>
 
         <!-- my duty -->
         <div>
-          <span>{{ $t("message.dutyLabel") }}</span> :
+          <span class="boldFont">{{ $t("message.dutyLabel") }}</span> :
           <ul id="project-1">
             <li v-for="item,index in $t('message.project1Duty')" :key="index">
               {{ item }}
@@ -27,7 +27,7 @@
 
         <!-- tech stack -->
         <div>
-          <span>{{ $t("message.projectStackLabel") }}</span>: 
+          <span class="boldFont">{{ $t("message.projectStackLabel") }}</span>: 
           {{ $t("message.project1TechStack") }} 
         </div>
       </template>
@@ -56,5 +56,9 @@ export default {
 <style scoped>
 .marginTop {
   margin-top: 150px;
+}
+
+.boldFont {
+  font-weight: 550;
 }
 </style>

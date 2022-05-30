@@ -2,11 +2,34 @@
   <div>
     <ContentsContainer>
       <template slot="title">
-        B2B Online shop system
+        <span>
+          {{ $t("message.project2Name") }}
+        </span>
+        
       </template>
       <template slot="contents">
-        该项目是由于日本消费税由8%上升到10%，需要对原有的系统进行改修，要在画面上表示10%，以及轻减8%税率，并且要在服务器端，对逻辑进行对应的修改。
-        我的职责是： 设计书的修改，coding，单体测试，bug修正，QA回答
+
+        <!-- project description -->
+        <div>
+          <span class="boldFont">{{ $t("message.projectDescLabel") }} </span>: 
+          {{ $t("message.project2Description") }} 
+        </div>
+
+        <!-- my duty -->
+        <div>
+          <span class="boldFont">{{ $t("message.dutyLabel") }}</span> :
+          <ul id="project-1">
+            <li v-for="item,index in $t('message.project2Duty')" :key="index">
+              {{ item }}
+            </li>
+          </ul>
+        </div>
+
+        <!-- tech stack -->
+        <div>
+          <span class="boldFont">{{ $t("message.projectStackLabel") }}</span>: 
+          {{ $t("message.project2TechStack") }} 
+        </div>
       </template>
     </ContentsContainer>
   </div>
@@ -31,5 +54,7 @@ export default {
 </script>
 
 <style scoped>
-
+.boldFont {
+  font-weight: 550;
+}
 </style>
