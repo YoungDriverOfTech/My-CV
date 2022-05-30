@@ -127,6 +127,12 @@ const messages = {
   project5Duty: ["設計書作成とコーディング", "バグ修正とQA回答", "ソースと設計書のレビュー"],
   project5TechStack: "Java8, SQLServer, Springboot, SpringBatch, Git/Github",
 
+  // project 6
+  project6Name: "オンラインショップオーダー管理システム",
+  project6Description: "本システムはオーダー管理、マスタ管理、在庫管理、顧客情報管理、取り寄せ管理によって構成されています。私は取り寄せ管理機能を担当しています。取り寄せのワークフローは、オーダー情報を別のサーバーから取得して、取り寄せ必要チェックとオーダー有効チェックを行なってから、残ってたオーダー情報を別のサーバーに送ることです。",
+  project6Duty: ["設計書作成と実装", "Vue.jsコンポーネントの実装", "Junit単体テスト作成", "バグ修正とQA回答", "ソースと設計書のレビュー", "リリース作業"],
+  project6TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, Vue.js, AWS, CI/CD, Flyway, Gradle",
+  
   // ------------- projects page -------------
 }
 

@@ -2,19 +2,19 @@
   <div class="alignCenter">
     <Header />
 
-    <Experiences1 />
-
-    <Experiences2 />
-
-    <Experiences3 />
-
-    <Experiences4 />
-
-    <Experiences5 />
+    <Experiences7 />
 
     <Experiences6 />
 
-    <Experiences7 />
+    <Experiences5 />
+
+    <Experiences4 />
+
+    <Experiences3 />
+
+    <Experiences2 />
+
+    <Experiences1 />
   </div>
 </template>
 

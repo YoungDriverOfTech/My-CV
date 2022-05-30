@@ -1,5 +1,5 @@
 <template>
-  <div class="marginTop">
+  <div>
     <ContentsContainer>
       <template slot="title">
         <span>
@@ -54,10 +54,6 @@ export default {
 </script>
 
 <style scoped>
-.marginTop {
-  margin-top: 150px;
-}
-
 .boldFont {
   font-weight: 550;
 }

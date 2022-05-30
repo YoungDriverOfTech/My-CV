@@ -126,7 +126,12 @@ const messages = {
   project5Duty: ["设计书做成和监视功能的代码实现", "bug修正和回答QA", "审核设计书和代码"],
   project5TechStack: "Java8, SQLServer, Springboot, SpringBatch, Git/Github",
 
-
+  // project 6
+  project6Name: "在线商城订单管理平台",
+  project6Description: "本平台由订单管理，公共部品管理， 存货管理，顾客情报管理和仓库调货管理等模块组成。我主要负责仓库调货管理模块。此模块会先从别的服务器中取到订单数据，然后进行是否需要提供调货服务以及该订单是否合理等检查，最后会把检查完的订单数据发送给别的服务器进行处理。",
+  project6Duty: ["设计书做成以及机能实装", "Vue组件实装", "Junit单体测试时装", "bug修正以及回答QA", "审核代码和设计书", "上线部署"],
+  project6TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, Vue.js, AWS, CI/CD, Flyway, Gradle",
+  
   // ------------- projects page -------------
 }
 

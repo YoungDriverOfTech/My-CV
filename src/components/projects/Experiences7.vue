@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="marginTop">
     <ContentsContainer>
       <template slot="title">
         Order Mock System
@@ -33,5 +33,7 @@ export default {
 </script>
 
 <style scoped>
-
+.marginTop {
+  margin-top: 150px;
+}
 </style>

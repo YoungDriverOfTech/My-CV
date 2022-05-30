@@ -2,11 +2,34 @@
   <div>
     <ContentsContainer>
       <template slot="title">
-        BackOrder Control System
+        <span>
+          {{ $t("message.project6Name") }}
+        </span>
+        
       </template>
       <template slot="contents">
-        该项目是AU OnLine Shop的一部分的子系统，主要是负责订单的仓库发货。
-        我主要负责：与客户沟通式样，写设计书，coding，bug修正，测试
+
+        <!-- project description -->
+        <div>
+          <span class="boldFont">{{ $t("message.projectDescLabel") }} </span>: 
+          {{ $t("message.project6Description") }} 
+        </div>
+
+        <!-- my duty -->
+        <div>
+          <span class="boldFont">{{ $t("message.dutyLabel") }}</span> :
+          <ul id="project-1">
+            <li v-for="item,index in $t('message.project6Duty')" :key="index">
+              {{ item }}
+            </li>
+          </ul>
+        </div>
+
+        <!-- tech stack -->
+        <div>
+          <span class="boldFont">{{ $t("message.projectStackLabel") }}</span>: 
+          {{ $t("message.project6TechStack") }} 
+        </div>
       </template>
     </ContentsContainer>
   </div>
@@ -31,5 +54,7 @@ export default {
 </script>
 
 <style scoped>
-
+.boldFont {
+  font-weight: 550;
+}
 </style>

@@ -127,6 +127,12 @@ const messages = {
   project5Duty: ["Writing application design and coding", "Fixing bugs and answering QA", "Reviewing source code and application design"],
   project5TechStack: "Java8, SQLServer, Springboot, SpringBatch, Git/Github",
 
+  // project 6
+  project6Name: "Online Shop Orders Management Platform",
+  project6Description: "The platform consists of several parts, for example: order management, stock management, customer management and etc. I was in charged of backorder management. The main word flow of backorder management is getting order datas from another server, then starting check whether if oerders need backorder service and update these datas status. Next, orders valid check will be executed. Finally, valid datas will be send to aws s3 storege.",
+  project6Duty: ["Writing application design and coding", "Creating common vue components", "Writing Junit test", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
+  project6TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, Vue.js, AWS, CI/CD, Flyway, Gradle",
+
   // ------------- projects page -------------
 }
 
