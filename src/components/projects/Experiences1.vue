@@ -2,23 +2,33 @@
   <div class="marginTop">
     <ContentsContainer>
       <template slot="title">
-        {{ $t("message.project1Name") }}
+        <span>
+          {{ $t("message.project1Name") }}
+        </span>
+        
       </template>
       <template slot="contents">
 
         <!-- project description -->
         <div>
-          {{ $t("message.projectDescLabel") }} : {{ $t("message.project1Description") }} 
-        </div>
-
-        <!-- tech stack -->
-        <div>
-          {{ $t("message.projectStackLabel") }} : {{ $t("message.project1TechStack") }} 
+          <span>{{ $t("message.projectDescLabel") }} </span>: 
+          {{ $t("message.project1Description") }} 
         </div>
 
         <!-- my duty -->
         <div>
-          {{ $t("message.dutyLabel") }} : {{ $t("message.project1Duty") }} 
+          <span>{{ $t("message.dutyLabel") }}</span> :
+          <ul id="project-1">
+            <li v-for="item,index in $t('message.project1Duty')" :key="index">
+              {{ item }}
+            </li>
+          </ul>
+        </div>
+
+        <!-- tech stack -->
+        <div>
+          <span>{{ $t("message.projectStackLabel") }}</span>: 
+          {{ $t("message.project1TechStack") }} 
         </div>
       </template>
     </ContentsContainer>

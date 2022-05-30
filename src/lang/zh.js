@@ -95,12 +95,12 @@ const messages = {
   projectStackLabel: "技术栈",
   dutyLabel: "我的职责",
 
-
   project1Name: "日志批处理系统",
   project1Description: "此系统处理其他服务器发来的日志文件，删除其中不必要的部分，然后格式化剩下的日志文件内容，转发给别的服务器",
+  project1Duty: ["与客户交流确认式样", "做成详细设计书，单体设计书和结合测试书", "给coding团队说明式样", "给客户做演示"],
   project1TechStack: "Window Batch, Excel, 千手",
-  project1Duty: "与客户交流确认式样； 做成详细设计书，单体设计书和结合测试书；给coding团队说明式样；给客户做演示",
-  
+
+
   // ------------- projects page -------------
 }
 
