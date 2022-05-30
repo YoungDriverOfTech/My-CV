@@ -108,6 +108,12 @@ const messages = {
   project2Duty: ["既存画面の表示修正とサーバー側のロジック修正", "単体テスト設計書作成と単体テスト作業", "バグ修正とQA回答", "成果物整理"],
   project2TechStack: "Java, VB.Net, Tomcat, Linux, HirDB, SVN, FTP",
 
+  // project 3
+  project3Name: "ゲーム暗号化審査システム",
+  project3Description: "ゲームメーカーさん向けのシステムです。ゲームが正式にpublishまで、色々な審査を行い、審査が全部通る場合は、ゲームが販売されることが可能です。",
+  project3Duty: ["RestFul APIの開発", "Junit単体テストの作成", "設計書を作成", "ソースレビュー", "勉強会で知識や経験の共有"],
+  project3TechStack: "Java8, Mysql, Git/Github, Aws, Neuron, Ubuntu, Docker, Jira",
+
   // ------------- projects page -------------
 }
 

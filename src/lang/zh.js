@@ -107,6 +107,12 @@ const messages = {
   project2Duty: ["页面表示和服务器端逻辑的修正", "单体测试书做成和单体测试作业", "bug修正和回答QA", "文书整理"],
   project2TechStack: "Java, VB.Net, Tomcat, Linux, HirDB, SVN, FTP",
 
+  // project 3
+  project3Name: "游戏加密审查系统",
+  project3Description: "面向游戏制作厂商，其所发行的游戏需要先经过加密，然后再经由本系统进行加密检查，只有所有的检查都通过，游戏才能正式发售贩卖。",
+  project3Duty: ["开发RestFul API", "完成Junit测试的编码", "制作详细设计", "代码审核", "学习会上分享经验和知识"],
+  project3TechStack: "Java8, Mysql, Git/Github, Aws, Neuron, Ubuntu, Docker, Jira",
+
   // ------------- projects page -------------
 }
 

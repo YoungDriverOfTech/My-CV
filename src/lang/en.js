@@ -108,6 +108,12 @@ const messages = {
   project2Duty: ["Modifying existed pages and server side logic", "Writing test ducuments and doing unit test", "Fixing bugs and answering QA", "Presentation for customers"],
   project2TechStack: "Java, VB.Net, Tomcat, Linux, HirDB, SVN, FTP",
 
+  // project 3
+  project3Name: "Game Encrypt Check Platform",
+  project3Description: "This platform system is used to check whether if a game is encrypted properly. All the checks need to be done before this game published.",
+  project3Duty: ["Developing Restful API interfaces", "Writing Junit tests", "Creating application designs", "Reviewing source code", "Shareing thoughts in the study group"],
+  project3TechStack: "Java8, Mysql, Git/Github, Aws, Neuron, Ubuntu, Docker",
+
   // ------------- projects page -------------
 }
 
