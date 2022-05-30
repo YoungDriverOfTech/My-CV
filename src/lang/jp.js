@@ -81,18 +81,26 @@ const messages = {
   chinese: "中国語",
   chineseScore: "母語",
 
-  preViewMessage: "画像をクリックすると、プレビューができます"
+  preViewMessage: "画像をクリックすると、プレビューができます",
   // ------------- about me page -------------
 
 
   // ------------- resume page -------------
-  
+
 
   // ------------- resume page -------------
 
 
   // ------------- projects page -------------
+  projectDescLabel: "プロジェクト概要",
+  projectStackLabel: "技術",
+  dutyLabel: "私の役割",
 
+  project1Name: "Windowバッチシステム",
+  project1Description: "本システムはログ処理システムです。別のサーバから送ってきたログファイルを必要がない情報を削除し、残した部分を整形して、別のサーバに送ります",
+  project1TechStack: "Window バッチ, イクセル, 千手",
+  project1Duty: "お客様とやりとりして、仕様をを確認すること; 詳細設計書、単体テスト設計書と結合テスト設計書を作成すること；　製造チームに仕様説明とお客様にプレゼンテーションすること",
+  
   // ------------- projects page -------------
 }
 

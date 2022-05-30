@@ -2,11 +2,24 @@
   <div class="marginTop">
     <ContentsContainer>
       <template slot="title">
-        Windows Batch自动化项目
+        {{ $t("message.project1Name") }}
       </template>
       <template slot="contents">
-        该项目是日本的基盘项目，主要的工作流程是：根据别的系统发来的Log日志，抽离出重要的部分，并且格式化日志文件，然后转发给其他的系统。
-        我的职责是： 负责和客户沟通，写设计式样书，确定式样，和coding team沟通，说明式样，做结合测试
+
+        <!-- project description -->
+        <div>
+          {{ $t("message.projectDescLabel") }} : {{ $t("message.project1Description") }} 
+        </div>
+
+        <!-- tech stack -->
+        <div>
+          {{ $t("message.projectStackLabel") }} : {{ $t("message.project1TechStack") }} 
+        </div>
+
+        <!-- my duty -->
+        <div>
+          {{ $t("message.dutyLabel") }} : {{ $t("message.project1Duty") }} 
+        </div>
       </template>
     </ContentsContainer>
   </div>

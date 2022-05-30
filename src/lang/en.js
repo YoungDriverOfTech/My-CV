@@ -81,7 +81,7 @@ const messages = {
   chinese: "Chinese",
   chineseScore: "Native Speaker",
 
-  preViewMessage: "Click picture to preview."
+  preViewMessage: "Click picture to preview.",
   // ------------- about me page -------------
 
 
@@ -92,7 +92,16 @@ const messages = {
 
 
   // ------------- projects page -------------
+  projectDescLabel: "Project Desc",
+  projectStackLabel: "Tech Stack",
+  dutyLabel: "My Duty",
 
+
+  project1Name: "Window Batch System",
+  project1Description: "This system dealing with the logs from the other servers, deleting unnecessary parts and formating these logs, sending them to another server.",
+  project1TechStack: "Window Batch, Excel, Senjun",
+  project1Duty: "Communicating with customers and confirming specification; Writing design and test ducuments; Explanation specification for coding team; Presentation for customers",
+  
   // ------------- projects page -------------
 }
 
