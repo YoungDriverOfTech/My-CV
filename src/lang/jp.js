@@ -121,6 +121,12 @@ const messages = {
   project4Duty: ["新規画面とサーバーサイドロジック作成", "単体テスト仕様書作成とテストの実施", "Googleマップを本システムに導入"],
   project4TechStack: "Java8, Oracle, Jsp, SVN, JavaScript, Struts1, GoogleMap",
 
+  // project 5
+  project5Name: "銀行取引監視システム",
+  project5Description: "SpringBatchで銀行の取引をチェックして、もしあるユーザーは疑わしい取引がやったら、該当取引IDを抽出して、別のテーブルに登録する。.",
+  project5Duty: ["設計書作成とコーディング", "バグ修正とQA回答", "ソースと設計書のレビュー"],
+  project5TechStack: "Java8, SQLServer, Springboot, SpringBatch, Git/Github",
+
   // ------------- projects page -------------
 }
 

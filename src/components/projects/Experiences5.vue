@@ -2,11 +2,34 @@
   <div>
     <ContentsContainer>
       <template slot="title">
-        Bank Check System
+        <span>
+          {{ $t("message.project5Name") }}
+        </span>
+        
       </template>
       <template slot="contents">
-        该项目是银行的交易的Batch监控系统，用来监控那些人那些ATM机有可以的交易，这些交易满足一定的条件以后，就会把交易ID取出来，存入到一张可以的交易信息表里面，
-        我主要负责：与客户沟通式样，写设计书，coding，bug修正，测试
+
+        <!-- project description -->
+        <div>
+          <span class="boldFont">{{ $t("message.projectDescLabel") }} </span>: 
+          {{ $t("message.project5Description") }} 
+        </div>
+
+        <!-- my duty -->
+        <div>
+          <span class="boldFont">{{ $t("message.dutyLabel") }}</span> :
+          <ul id="project-1">
+            <li v-for="item,index in $t('message.project5Duty')" :key="index">
+              {{ item }}
+            </li>
+          </ul>
+        </div>
+
+        <!-- tech stack -->
+        <div>
+          <span class="boldFont">{{ $t("message.projectStackLabel") }}</span>: 
+          {{ $t("message.project5TechStack") }} 
+        </div>
       </template>
     </ContentsContainer>
   </div>
@@ -31,5 +54,7 @@ export default {
 </script>
 
 <style scoped>
-
+.boldFont {
+  font-weight: 550;
+}
 </style>

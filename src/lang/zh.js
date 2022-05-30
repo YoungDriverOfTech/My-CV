@@ -120,6 +120,13 @@ const messages = {
   project4Duty: ["完成新页面的制造和服务器端代码的编写", "制作弹体测试式样书和单体测试实施", "将谷歌地图导入到本系统中"],
   project4TechStack: "Java8, Oracle, Jsp, SVN, JavaScript, Struts1, GoogleMap",
 
+  // project 5
+  project5Name: "银行转账监视系统",
+  project5Description: "使用SpringBatch框架对银行用户的交易信息进行监视，如果发现有用户的转账交易有异常，那么就把该笔转账交易的ID记录到另一张表中。",
+  project5Duty: ["设计书做成和监视功能的代码实现", "bug修正和回答QA", "审核设计书和代码"],
+  project5TechStack: "Java8, SQLServer, Springboot, SpringBatch, Git/Github",
+
+
   // ------------- projects page -------------
 }
 

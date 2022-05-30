@@ -121,6 +121,12 @@ const messages = {
   project4Duty: ["Creating new pages and writing server side code", "Writing unit test design and testing", "Importing Google map into current system"],
   project4TechStack: "Java8, Oracle, Jsp, SVN, JavaScript, Struts1, GoogleMap",
 
+  // project 5
+  project5Name: "Bank Transactions Monitoring System",
+  project5Description: "This system monitors bank users' transactions, which uses different conditions to check whether if users hava suspicious transactions and inserts the transaction id into a table that is used to check who is susupicous.",
+  project5Duty: ["Writing application design and coding", "Fixing bugs and answering QA", "Reviewing source code and application design"],
+  project5TechStack: "Java8, SQLServer, Springboot, SpringBatch, Git/Github",
+
   // ------------- projects page -------------
 }
 
