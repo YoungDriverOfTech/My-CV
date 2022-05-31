@@ -98,6 +98,32 @@ const messages = {
   framework: "Framework",
   software: "SoftWare",
   db: "Database",
+
+  companyQAndF: "株式会社Q&F (2021/4 - current)",
+  fullStackEngineer: "Full Stack Software Engineer",
+  qfDuty1: "Developed order management system",
+  qfDuty2: "Developed file store system",
+  qfDuty3: "Reconstructed frontend source code",
+  qfDuty4: "Customized ORM framework",
+
+  companyGSD: "株式会社GSD (2020/4 - 2021/3)",
+  backendEngineer: "Backend Software Engineer",
+  gsdDuty1: "Upgraded tourism reservation platform",
+  gsdDuty2: "Developed bank transaction monitor",
+  gsdDuty3: "Developed order management system",
+
+  companyCPS: "株式会社CPS (2019/2 - 2020/3)",
+  cpsDuty1: "Developed log format system",
+  cpsDuty2: "Upgreded Online shop system",
+  cpsDuty3: "Developed game check system",
+
+  education: "Education",
+  bachelor: "Bachelor",
+  major: "Financial Management",
+  universityPeriod: "Period",
+  universityPeriodValue: "2013 - 2017",
+  university: "University",
+  universityName: "YunCheng University",
   // ------------- resume page -------------
 
 

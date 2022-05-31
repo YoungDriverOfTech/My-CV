@@ -97,6 +97,32 @@ const messages = {
   framework: "框架",
   software: "软件",
   db: "数据库",
+
+  companyQAndF: "株式会社Q&F (2021/4 - 现在)",
+  fullStackEngineer: "全栈工程师",
+  qfDuty1: "开发订单管理系统",
+  qfDuty2: "开发文件保管系统",
+  qfDuty3: "前端代码重构",
+  qfDuty4: "定制ROM框架服务",
+
+  companyGSD: "株式会社GSD (2020/4 - 2021/3)",
+  backendEngineer: "后端工程师",
+  gsdDuty1: "海外酒店预订系统版本升级",
+  gsdDuty2: "开发银行交易监视系统",
+  gsdDuty3: "开发订单管理系统",
+
+  companyCPS: "株式会社CPS (2019/2 - 2020/3)",
+  cpsDuty1: "开发日志格式化系统",
+  cpsDuty2: "食品贩卖系统版本升级",
+  cpsDuty3: "开发游戏审查系统",
+
+  education: "教育",
+  bachelor: "专业",
+  major: "财务管理",
+  universityPeriod: "期间",
+  universityPeriodValue: "2013 - 2017",
+  university: "大学",
+  universityName: "运城学院",
   // ------------- resume page -------------
 
 

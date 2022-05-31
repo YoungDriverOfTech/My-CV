@@ -98,6 +98,32 @@ const messages = {
   framework: "フレームワーク",
   software: "ソフトウェア",
   db: "データベース",
+
+  companyQAndF: "株式会社Q&F (2021/4 - 現在)",
+  fullStackEngineer: "フルスタックソフトウェアエンジニア",
+  qfDuty1: "受注管理システム開発",
+  qfDuty2: "ファイル保管システム開発",
+  qfDuty3: "フロントエンドのソースを再構築",
+  qfDuty4: "ORMフレームワークをカスタマイズ化",
+
+  companyGSD: "株式会社GSD (2020/4 - 2021/3)",
+  backendEngineer: "バックエンドエンジニア",
+  gsdDuty1: "海外ホテル予約システムバージョンーアップ",
+  gsdDuty2: "銀行取引監視システム開発",
+  gsdDuty3: "受注管理システム開発",
+
+  companyCPS: "株式会社CPS (2019/2 - 2020/3)",
+  cpsDuty1: "ログフォマット化システム開発",
+  cpsDuty2: "食品販売システムバージョンアップ",
+  cpsDuty3: "ゲーム審査システム開発",
+
+  education: "教育",
+  bachelor: "専攻",
+  major: "財務管理",
+  universityPeriod: "期間",
+  universityPeriodValue: "2013 - 2017",
+  university: "大学名",
+  universityName: "運城学院",
   // ------------- resume page -------------
 
 

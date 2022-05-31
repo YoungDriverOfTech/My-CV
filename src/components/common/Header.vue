@@ -3,7 +3,7 @@
   <div class="header">
     <div class="titleFontStyle">
       <div>{{ $t("message.whoResume") }}</div>
-      <el-dropdown>
+      <el-dropdown trigger="click">
         <span class="el-dropdown-link">
           {{ $t("message.chooseLanguage") }}<i class="el-icon-arrow-down el-icon--right"></i>
         </span>
@@ -49,13 +49,10 @@ export default {
       const itemValue = event.target.value;
       if (itemValue === 0) {
         this.$i18n.locale = "en";
-        console.log("aaaa")
       } else if (itemValue === 1) {
         this.$i18n.locale = "ja";
-        console.log("bbbb")
       } else {
         this.$i18n.locale = "zh";
-        console.log("cccc")
       }
     },
   },

@@ -104,53 +104,54 @@
           </div>
           <div>
             <h3>
-              <span>株式会社Q&F (2021/4 - current)</span>
+              <span>{{ $t("message.companyQAndF") }}</span>
               <br />
-              <span>Fullstack Software Engineer</span>
+              <span>{{ $t("message.fullStackEngineer") }}</span>
             </h3>
             <ul>
-              <li>Developed order management system</li>
-              <li>Developed file store system</li>
-              <li>Reconstructed frontend source code</li>
+              <li>{{ $t("message.qfDuty1") }}</li>
+              <li>{{ $t("message.qfDuty2") }}</li>
+              <li>{{ $t("message.qfDuty3") }}</li>
+              <li>{{ $t("message.qfDuty4") }}</li>
             </ul>
           </div>
 
           <div>
             <h3>
-              <span>株式会社GSD (2020/4 - 2021/3)</span>
+              <span>{{ $t("message.companyGSD") }}</span>
               <br />
-              <span>Backend Software Engineer</span>
+              <span>{{ $t("message.backendEngineer") }}</span>
             </h3>
             <ul>
-              <li>Upgraded tourism reservation platform</li>
-              <li>Developed bank transaction monitor</li>
-              <li>Developed order management system</li>
+              <li>{{ $t("message.gsdDuty1") }}</li>
+              <li>{{ $t("message.gsdDuty2") }}</li>
+              <li>{{ $t("message.gsdDuty3") }}</li>
             </ul>
           </div>
 
           <div>
             <h3>
-              <span>株式会社CPS (2019/2 - 2020/3)</span>
+              <span>{{ $t("message.companyCPS") }}</span>
               <br />
-              <span>Backend Software Engineer</span>
+              <span>{{ $t("message.backendEngineer") }}</span>
             </h3>
             <ul>
-              <li>Developed log format system</li>
-              <li>Upgreded Online shop system</li>
-              <li>Developed game check system</li>
+              <li>{{ $t("message.cpsDuty1") }}</li>
+              <li>{{ $t("message.cpsDuty2") }}</li>
+              <li>{{ $t("message.cpsDuty3") }}</li>
             </ul>
           </div>
 
           <!-- Education -->
           <div>
-            <div class="el-icon-s-order parentTitle underLine">Education</div>
-            <h3>
-              <span>Bachelor: Financial Management</span>
-              <br />
-              <span>Period: 2013 - 2017</span>
-              <br />
-              <span>University: YunCheng University</span>
-            </h3>
+            <div class="el-icon-s-order parentTitle underLine">{{ $t("message.education") }}</div>
+            <br><br>
+
+            <span class="subTitle">{{ $t("message.bachelor") }}:</span> {{ $t("message.major") }}
+            <br>
+            <span class="subTitle">{{ $t("message.universityPeriod") }}:</span> {{ $t("message.universityPeriodValue") }}
+            <br>
+            <span class="subTitle">{{ $t("message.university") }}:</span> {{ $t("message.universityName") }}
           </div>
         </div>
 
@@ -174,19 +175,27 @@
 </template>
 
 <script>
-import ResumeProject1 from "../resumeprojects/Project1.vue"
-import ResumeProject2 from "../resumeprojects/Project2.vue"
-import ResumeProject3 from "../resumeprojects/Project3.vue"
-import ResumeProject4 from "../resumeprojects/Project4.vue"
-import ResumeProject5 from "../resumeprojects/Project5.vue"
-import ResumeProject6 from "../resumeprojects/Project6.vue"
-import ResumeProject7 from "../resumeprojects/Project7.vue"
+import ResumeProject1 from "../resumeprojects/Project1.vue";
+import ResumeProject2 from "../resumeprojects/Project2.vue";
+import ResumeProject3 from "../resumeprojects/Project3.vue";
+import ResumeProject4 from "../resumeprojects/Project4.vue";
+import ResumeProject5 from "../resumeprojects/Project5.vue";
+import ResumeProject6 from "../resumeprojects/Project6.vue";
+import ResumeProject7 from "../resumeprojects/Project7.vue";
 export default {
   name: "Resume",
   data() {
     return {};
   },
-  components: {ResumeProject1, ResumeProject2, ResumeProject3, ResumeProject4, ResumeProject5, ResumeProject6, ResumeProject7},
+  components: {
+    ResumeProject1,
+    ResumeProject2,
+    ResumeProject3,
+    ResumeProject4,
+    ResumeProject5,
+    ResumeProject6,
+    ResumeProject7,
+  },
 
   mounted() {},
 
