@@ -87,7 +87,10 @@ const messages = {
 
 
   // ------------- resume page -------------
-
+  english: "英語",
+  japanese: "日本語",
+  toeic: "Toeic",
+  workExperiences: "就職履歴",
 
   // ------------- resume page -------------
 

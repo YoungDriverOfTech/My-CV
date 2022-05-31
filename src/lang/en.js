@@ -16,7 +16,7 @@ const messages = {
   selfIntroduction3: "I can speak three languages that are English, Japanese and Chinese.",
 
   // personal infos
-  personalInfo: "Personal Infos",
+  personalInfo: "Personal Info",
   nameLabel: "Name",
   nameValue: "Xiaole Liang",
 
@@ -87,7 +87,10 @@ const messages = {
 
 
   // ------------- resume page -------------
-
+  english: "English",
+  japanese: "Japanese",
+  toeic: "Toeic",
+  workExperiences: "Work Experiences",
 
   // ------------- resume page -------------
 

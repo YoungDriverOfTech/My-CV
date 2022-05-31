@@ -1,15 +1,23 @@
 <template>
   <div class="parent">
     <article>
-      <header class="textLeft">
-        <h1>XIAOLE LIANG</h1>
-        <p>
-          Motivated Sales Associate with 5 years of experience boosting sales
-          and customer loyalty through individualized service. Resourceful
-          expert at learning customer needs, directing to desirable merchandise
-          and upselling to meet sales quotas. Committed to strengthening
-          customer experiences with positivity and professionalism when
+      <header class="headerStyle">
+        <div>
+          <span class="nameFont">{{ $t("message.nameValue") }}</span>
+        </div>
+        
+        <p class="basicInfoFlexLayout">
+          <img src="../../assets/images/phone.png">
+          <span class="basicInfoBottomMargin">090-0000-0000</span>&nbsp;&nbsp;&nbsp;
           
+          <img src="../../assets/images/email.png">
+          <span>xiaoleliang045@gmail.com</span>&nbsp;&nbsp;&nbsp;
+
+          <img src="../../assets/images/location.png">
+          <span>{{ $t("message.locationValue") }}</span>&nbsp;&nbsp;&nbsp;
+
+          <img src="../../assets/images/github.png">
+          <span>YoungDriverOfTech</span>
         </p>
       </header>
 
@@ -18,50 +26,47 @@
 
         <!-- basic information -->
         <div class="inlineBlock textLeft">
-          <!-- contact -->
           <div>
-            <div class="el-icon-user-solid parentTitle underLine">Contact</div>
+            <div class="el-icon-user-solid parentTitle underLine">{{ $t("message.personalInfo") }}</div>
             <br><br>
 
-            <div class="subTitle">Address</div>
-            <div class="marginOfItem">Tokyo edogawa koiwa</div>
+            <div class="subTitle">Aount Me</div>
+            <div class="marginOfItem">Java Engineer</div>
 
-            <div class="subTitle">Github</div>
-            <div class="marginOfItem">23333333333</div>
+            <div class="subTitle">{{ $t("message.blogLabel") }}</div>
+            <div class="marginOfItem">https://www.yuque.com/lexiao-1kmgg</div>
 
-            <div class="subTitle">Email</div>
-            <div class="marginOfItem">23333333333@gmail.com</div>
+            <div class="subTitle">Education</div>
+            <div class="marginOfItem">Bachelor: Financial Management<br>YunCheng University(2013-2017)</div>
+            
 
-            <div class="subTitle">LinkedIn</div>
-            <div class="marginOfItem">23333333333@gmail.com</div>
-
-            <div class="subTitle">My Blog</div>
-            <div class="marginOfItem">23333333333@gmail.com</div>
+            <div class="subTitle">Work Experiences</div>
+            <div class="marginOfItem">4 years(2019-present)</div>
           </div>
           <br />
 
           <!-- language -->
           <div>
-            <div class="el-icon-info parentTitle underLine">Language</div>
+            <div class="el-icon-info parentTitle underLine">{{ $t("message.chooseLanguage") }}</div>
             <br><br>
 
-            <div class="subTitle">English</div>
-            <div class="marginOfItem">TOEIC:820(Listening And Reading)</div>
+            <div class="subTitle">{{ $t("message.english") }}</div>
+            <div class="marginOfItem">{{ $t("message.toeic") }}:820</div>
 
-            <div class="subTitle">Japanese</div>
+            <div class="subTitle">{{ $t("message.japanese") }}</div>
             <div class="marginOfItem">
-              <span>JLPT N1:121</span><br />
-              <span>JLPT N2:137</span>
+              <span>{{ $t("message.jlptN1") }}:121</span><br />
+              <span>{{ $t("message.jlptN2") }}:137</span>
             </div>
 
-            <div class="subTitle">Chinese</div>
-            <div class="marginOfItem">Native Speaker</div>
+            <div class="subTitle">{{ $t("message.chinese") }}</div>
+            <div class="marginOfItem">{{ $t("message.chineseScore") }}</div>
           </div>
           <br />
 
           <!-- skill -->
           <div>
-            <div class="el-icon-s-opportunity parentTitle underLine">Skills</div>
+            <div class="el-icon-s-opportunity parentTitle underLine">{{ $t("message.skills") }}</div>
             <div id="skill-area" style="width: `160px; height: 200px"></div>
           </div>
         </div>
@@ -69,7 +74,7 @@
         <!-- experiences and education -->
         <div class="inlineBlock textLeft">
           <!-- experience -->
-          <div class="el-icon-s-data parentTitle underLine">Experience</div>
+          <div class="el-icon-s-data parentTitle underLine">{{ $t("message.workExperiences") }}</div>
           <div>
             <h3>
               <span>株式会社Q And F</span>
@@ -113,18 +118,6 @@
               <li>Generated brand awareness and positi.</li>
               <li>Used consultative sales approach t.</li>
             </ul>
-          </div>
-
-          <!-- Education -->
-          <div>
-            <div class="el-icon-s-order parentTitle underLine">Education</div>
-            <h3>
-              <span>Bachelor: Financial Management</span>
-              <br>
-              <span>Period: 2013 - 2017</span>
-              <br>
-              <span>University: YunCheng University</span>
-            </h3>
           </div>
         </div>
 
@@ -219,6 +212,11 @@ article {
   text-align: left;
 }
 
+.nameFont {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
 .subTitle {
   font-size: 1.2em;
   font-weight: 600;
@@ -235,5 +233,19 @@ article {
 
 .underLine {
   border-bottom: 2px solid black;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+}
+
+.basicInfoFlexLayout {
+  display: flex;
+  justify-content: center;
+}
+
+.headerStyle{
+  margin-bottom: 50px;
 }
 </style>
