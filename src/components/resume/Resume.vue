@@ -30,18 +30,15 @@
             <div class="el-icon-user-solid parentTitle underLine">{{ $t("message.personalInfo") }}</div>
             <br><br>
 
-            <div class="subTitle">Aount Me</div>
-            <div class="marginOfItem">Java Engineer</div>
+            <div class="subTitle">{{ $t("message.currentStatusLabel") }}</div>
+            <div class="marginOfItem">{{ $t("message.currentStatusValue") }}</div>
 
             <div class="subTitle">{{ $t("message.blogLabel") }}</div>
             <div class="marginOfItem">https://www.yuque.com/lexiao-1kmgg</div>
 
-            <div class="subTitle">Education</div>
-            <div class="marginOfItem">Bachelor: Financial Management<br>YunCheng University(2013-2017)</div>
-            
-
             <div class="subTitle">Work Experiences</div>
-            <div class="marginOfItem">4 years(2019-present)</div>
+            <div class="marginOfItem">4 years(2010-present)</div>
+
           </div>
           <br />
 
@@ -77,47 +74,53 @@
           <div class="el-icon-s-data parentTitle underLine">{{ $t("message.workExperiences") }}</div>
           <div>
             <h3>
-              <span>株式会社Q And F</span>
+              <span>株式会社Q&F (2021/4 - current)</span>
               <br>
-              <span>2021/4 - current</span>
+              <span>Fullstack Software Engineer</span>
             </h3>
             <ul>
-              <li>Effectively upsold products by introducing .</li>
-              <li>Generated brand awareness and positi.</li>
-              <li>Used consultative sales approach t.</li>
-              <li>Generated brand awareness and positi.</li>
-              <li>Used consultative sales approach t.</li>
+              <li>Developed order management system</li>
+              <li>Developed file store system</li>
+              <li>Reconstructed frontend source code</li>
             </ul>
           </div>
 
           <div>
             <h3>
-              <span>株式会社GSD</span>
+              <span>株式会社GSD (2020/4 - 2021/3)</span>
               <br />
-              <span>2020/4 - 2021/3</span>
+              <span>Backend Software Engineer</span>
             </h3>
             <ul>
-              <li>Effectively upsold products by introducing .</li>
-              <li>Generated brand awareness and positi.</li>
-              <li>Used consultative sales approach t.</li>
-              <li>Generated brand awareness and positi.</li>
-              <li>Used consultative sales approach t.</li>
+              <li>Upgraded tourism reservation platform</li>
+              <li>Developed bank transaction monitor</li>
+              <li>Developed order management system</li>
             </ul>
           </div>
 
           <div>
             <h3>
-              <span>株式会社CPS</span>
+              <span>株式会社CPS (2019/2 - 2020/3)</span>
               <br />
-              <span>2019/2 - 2020/3</span>
+              <span>Backend Software Engineer</span>
             </h3>
             <ul>
-              <li>Effectively upsold products by introducing.</li>
-              <li>Generated brand awareness and positi.</li>
-              <li>Used consultative sales approach t.</li>
-              <li>Generated brand awareness and positi.</li>
-              <li>Used consultative sales approach t.</li>
+              <li>Developed log format system</li>
+              <li>Upgreded Online shop system</li>
+              <li>Developed game check system</li>
             </ul>
+          </div>
+
+          <!-- Education -->
+          <div>
+            <div class="el-icon-s-order parentTitle underLine">Education</div>
+            <h3>
+              <span>Bachelor: Financial Management</span>
+              <br>
+              <span>Period: 2013 - 2017</span>
+              <br>
+              <span>University: YunCheng University</span>
+            </h3>
           </div>
         </div>
 
