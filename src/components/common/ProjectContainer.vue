@@ -19,7 +19,6 @@
       <span class="subTitle"> 
         <slot name="techStackLabel"></slot> : 
       </span>
-      <br>
       <slot name="techStackDetail"></slot>
     </div>
     <br>
