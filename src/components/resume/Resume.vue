@@ -37,7 +37,7 @@
             <div class="marginOfItem">https://www.yuque.com/lexiao-1kmgg</div>
 
             <div class="subTitle">Work Experiences</div>
-            <div class="marginOfItem">4 years(2010-present)</div>
+            <div class="marginOfItem">4 years(2019-present)</div>
 
           </div>
           <br />
@@ -64,7 +64,20 @@
           <!-- skill -->
           <div>
             <div class="el-icon-s-opportunity parentTitle underLine">{{ $t("message.skills") }}</div>
-            <div id="skill-area" style="width: `160px; height: 200px"></div>
+            <br><br>
+            <!-- <div id="skill-area" style="width: `160px; height: 200px"></div> -->
+
+            <div class="subTitle">Programming Languages</div>
+            <div class="marginOfItem">Java, JavaScript, TypeScript, HTML, CSS, SQL</div>
+
+            <div class="subTitle">Framework</div>
+            <div class="marginOfItem">Spring, Springboot, Mybatis, Vue, React</div>
+
+            <div class="subTitle">Software</div>
+            <div class="marginOfItem">Git, SVN, Linux, Vim, Node.js</div>
+
+            <div class="subTitle">Database</div>
+            <div class="marginOfItem">Mysql, Oracle, Postgre, SqlServer, Hirdb</div>
           </div>
         </div>
 
