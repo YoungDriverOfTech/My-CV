@@ -90,8 +90,14 @@ const messages = {
   english: "英語",
   japanese: "日本語",
   toeic: "Toeic",
+  workPeriod: "経験年数",
+  year4: "4年(2019-現在)",
   workExperiences: "就職履歴",
 
+  programmingLanguages: "プログラミング言語",
+  framework: "フレームワーク",
+  software: "ソフトウェア",
+  db: "データベース",
   // ------------- resume page -------------
 
 

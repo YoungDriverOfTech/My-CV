@@ -42,8 +42,8 @@
             <div class="subTitle">{{ $t("message.blogLabel") }}</div>
             <div class="marginOfItem">https://www.yuque.com/lexiao-1kmgg</div>
 
-            <div class="subTitle">Work Experiences</div>
-            <div class="marginOfItem">4 years(2019-present)</div>
+            <div class="subTitle">{{ $t("message.workPeriod") }}</div>
+            <div class="marginOfItem">{{ $t("message.year4") }}</div>
           </div>
           <br />
 
@@ -76,20 +76,20 @@
             <br /><br />
             <!-- <div id="skill-area" style="width: `160px; height: 200px"></div> -->
 
-            <div class="subTitle">Programming Languages</div>
+            <div class="subTitle">{{ $t("message.programmingLanguages") }}</div>
             <div class="marginOfItem">
               Java, JavaScript, TypeScript, HTML, CSS, SQL
             </div>
 
-            <div class="subTitle">Framework</div>
+            <div class="subTitle">{{ $t("message.framework") }}</div>
             <div class="marginOfItem">
               Spring, Springboot, Mybatis, Vue, React
             </div>
 
-            <div class="subTitle">Software</div>
+            <div class="subTitle">{{ $t("message.software") }}</div>
             <div class="marginOfItem">Git, SVN, Linux, Vim, Node.js</div>
 
-            <div class="subTitle">Database</div>
+            <div class="subTitle">{{ $t("message.db") }}</div>
             <div class="marginOfItem">
               Mysql, Oracle, Postgre, SqlServer, Hirdb
             </div>

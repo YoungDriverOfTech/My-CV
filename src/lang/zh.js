@@ -89,8 +89,14 @@ const messages = {
   english: "英语",
   japanese: "日语",
   toeic: "托业",
+  workPeriod: "工作年限",
+  year4: "4年(2019-现在)",
   workExperiences: "工作经历",
 
+  programmingLanguages: "编程语言",
+  framework: "框架",
+  software: "软件",
+  db: "数据库",
   // ------------- resume page -------------
 
 
