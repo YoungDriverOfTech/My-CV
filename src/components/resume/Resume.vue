@@ -161,23 +161,32 @@
     <!-- projects -->
     <article>
       <div class="textLeft">
-        <!-- <ProjectContainer></ProjectContainer> -->
-        <ResumeProject1> </ResumeProject1>
+        <ResumeProject7></ResumeProject7>
+        <ResumeProject6></ResumeProject6>
+        <ResumeProject5></ResumeProject5>
+        <ResumeProject4></ResumeProject4>
+        <ResumeProject3></ResumeProject3>
+        <ResumeProject2></ResumeProject2>
+        <ResumeProject1></ResumeProject1>
       </div>
     </article>
   </div>
 </template>
 
 <script>
-import ProjectContainer from "../common/ProjectContainer.vue";
 import ResumeProject1 from "../resumeprojects/Project1.vue"
-
+import ResumeProject2 from "../resumeprojects/Project2.vue"
+import ResumeProject3 from "../resumeprojects/Project3.vue"
+import ResumeProject4 from "../resumeprojects/Project4.vue"
+import ResumeProject5 from "../resumeprojects/Project5.vue"
+import ResumeProject6 from "../resumeprojects/Project6.vue"
+import ResumeProject7 from "../resumeprojects/Project7.vue"
 export default {
   name: "Resume",
   data() {
     return {};
   },
-  components: { ProjectContainer, ResumeProject1},
+  components: {ResumeProject1, ResumeProject2, ResumeProject3, ResumeProject4, ResumeProject5, ResumeProject6, ResumeProject7},
 
   mounted() {},
 

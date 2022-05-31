@@ -22,6 +22,7 @@
       <br>
       <slot name="techStackDetail"></slot>
     </div>
+    <br>
   </div>
 </template>
 
