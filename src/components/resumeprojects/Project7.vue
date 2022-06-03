@@ -14,6 +14,14 @@
         {{ $t("message.project7Description") }}
       </template>
 
+      <!-- project period -->
+      <template slot="projectPeriodLabel">
+        {{ $t("message.projectPeriodLabel") }}
+      </template>
+      <template slot="projectPeriodDetail">
+        {{ $t("message.project7Period") }}
+      </template>
+
       <!-- my duty -->
       <template slot="myDutyLabel">
         {{ $t("message.dutyLabel") }}

@@ -8,6 +8,12 @@
         <slot name="projectDescLabel"></slot> : 
       </span>
       <slot name="projectDescDetail"></slot>
+      
+      <br>
+      <span class="subTitle">
+        <slot name="projectPeriodLabel"></slot> : 
+      </span>
+      <slot name="projectPeriodDetail"></slot>
 
       <br>
       <span class="subTitle">
