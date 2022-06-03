@@ -6,40 +6,10 @@
         <el-tabs v-model="activeName" @tab-click="handleClick">
           <!-- IT skills -->
           <el-tab-pane label="Tech" name="first">
-            <strong>{{ $t("message.dataSkill") }}: </strong
-            >{{ $t("message.datafamiliarity")
-            }}<el-progress :percentage="75"></el-progress>
-            <br />
-
-            <strong>{{ $t("message.javaSkill") }}: </strong
-            >{{ $t("message.javaFamiliarity")
-            }}<el-progress :percentage="90"></el-progress>
-            <br />
-
-            <strong>{{ $t("message.springSkill") }}: </strong
-            >{{ $t("message.springFamiliarity")
-            }}<el-progress :percentage="80"></el-progress>
-            <br />
-
-            <strong>{{ $t("message.dbSkill") }}: </strong
-            >{{ $t("message.dbFamiliarity")
-            }}<el-progress :percentage="75"></el-progress>
-            <br />
-
-            <strong>{{ $t("message.linuxSkill") }}: </strong
-            >{{ $t("message.linuxFamiliarity")
-            }}<el-progress :percentage="60"></el-progress>
-            <br />
-
-            <strong>{{ $t("message.frontSkill") }}: </strong
-            >{{ $t("message.frontFamiliarity")
-            }}<el-progress :percentage="70"></el-progress>
-            <br />
-
-            <strong>{{ $t("message.frongtFrameworkSkill") }}: </strong
-            >{{ $t("message.frongtFrameworkFamiliarity")
-            }}<el-progress :percentage="70"></el-progress>
-            <br />
+            <!-- skill -->
+            <div>
+              <div id="skill-area" style="width: `450px; height: 450px"></div>
+            </div>
           </el-tab-pane>
 
           <!-- Languages -->
@@ -99,6 +69,7 @@
 
 <script>
 import ContentsContainer from "../common/ContentsContainer.vue";
+import * as echarts from "echarts";
 
 export default {
   name: "ProfessionalSkills",
@@ -122,7 +93,39 @@ export default {
     ContentsContainer,
   },
 
-  mounted() {},
+  mounted() {
+    // init skill map
+    let chartDom = document.getElementById("skill-area");
+    let myChart = echarts.init(chartDom);
+    let option;
+    option = {
+      radar: {
+        indicator: [
+          { name: "Java", max: 100 },
+          { name: "Spring", max: 100 },
+          { name: "JS", max: 100 },
+          { name: "CSS", max: 100 },
+          { name: "HTML", max: 100 },
+          { name: "Vue", max: 100 },
+          { name: "DB", max: 100 },
+          { name: "React", max: 100 },
+        ],
+      },
+      series: [
+        {
+          name: "skill level",
+          type: "radar",
+          data: [
+            {
+              value: [90, 90, 80, 70, 90, 80, 80, 80],
+              name: "skill score",
+            },
+          ],
+        },
+      ],
+    };
+    option && myChart.setOption(option);
+  },
 
   methods: {
     handleClick(tab, event) {

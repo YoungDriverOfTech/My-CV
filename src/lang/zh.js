@@ -37,7 +37,7 @@ const messages = {
   blogValue: "https://www.yuque.com/lexiao-1kmgg",
 
   workPeriodLabel: "工作年限",
-  workPeriodValue: "3.5 年",
+  workPeriodValue: "4 年",
 
   // skills
   skills: "技能",
