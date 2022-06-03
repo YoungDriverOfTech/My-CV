@@ -129,47 +129,55 @@ const messages = {
 
   // ------------- projects page -------------
   projectDescLabel: "Project Desc",
+  projectPeriodLabel: "Period",
   projectStackLabel: "Tech Stack",
   dutyLabel: "My Duty",
 
   // project 1
   project1Name: "Window Batch System",
+  project1Period: "2019/2 - 2019/4",
   project1Description: "This system dealing with the logs from the other servers, deleting unnecessary parts and formating these logs, sending them to another server.",
   project1Duty: ["Communicating with customers and confirming specification", "Writing design and test ducuments", "Explanation specification for coding team", "Presentation for customers"],
   project1TechStack: "Window Batch, Excel, Senjun",
 
   // project 2
   project2Name: "Food Online Shop",
+  project2Period: "2019/5 - 2019/9",
   project2Description: "This is a B2B food online shop system that needed modification to meet the sale tax changing from 8% to 10% in 2019.",
   project2Duty: ["Modifying existed pages and server side logic", "Writing test ducuments and doing unit test", "Fixing bugs and answering QA", "Presentation for customers"],
   project2TechStack: "Java, VB.Net, Tomcat, Linux, HirDB, SVN, FTP",
 
   // project 3
   project3Name: "Game Encrypt Check Platform",
+  project3Period: "2019/10 - 2020/3",
   project3Description: "This platform system is used to check whether if a game is encrypted properly. All the checks need to be done before this game published.",
   project3Duty: ["Developing Restful API interfaces", "Writing Junit tests", "Creating application designs", "Reviewing source code", "Shareing thoughts in the study group"],
   project3TechStack: "Java8, Mysql, Git/Github, Aws, Neuron, Ubuntu, Docker",
 
   // project 4
   project4Name: "Overseas Trip Hotel Reservation Platform",
+  project4Period: "2020/7 - 2020/9",
   project4Description: "The tourism companys can use this platform to reserve hotels, customize trip courses and bug airplane ticket.",
   project4Duty: ["Creating new pages and writing server side code", "Writing unit test design and testing", "Importing Google map into current system"],
   project4TechStack: "Java8, Oracle, Jsp, SVN, JavaScript, Struts1, GoogleMap",
 
   // project 5
   project5Name: "Bank Transactions Monitoring System",
+  project5Period: "2020/10 - 2020/11",
   project5Description: "This system monitors bank users' transactions, which uses different conditions to check whether if users hava suspicious transactions and inserts the transaction id into a table that is used to check who is susupicous.",
   project5Duty: ["Writing application design and coding", "Fixing bugs and answering QA", "Reviewing source code and application design"],
   project5TechStack: "Java8, SQLServer, Springboot, SpringBatch, Git/Github",
 
   // project 6
   project6Name: "Online Shop Orders Management Platform",
+  project6Period: "2020/12 - present",
   project6Description: "The platform consists of several parts, for example: order management, stock management, customer management and etc. I was in charged of backorder management. The main word flow of backorder management is getting order datas from another server, then starting check whether if oerders need backorder service and update these datas status. Next, orders valid check will be executed. Finally, valid datas will be send to aws s3 storege.",
   project6Duty: ["Writing application design and coding", "Creating common vue components", "Writing Junit test", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
   project6TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, Vue.js, TypeScript, AWS, CI/CD, Flyway, Gradle",
 
   // project 7
   project7Name: "Online Shop File Management System",
+  project7Period: "2021/6 - present",
   project7Description: "This system is used to manipulate the files, related to business, stored in aws s3. It can upload, download files from the s3 and also can delete directly.",
   project7Duty: ["Writing application design and coding", "Creating react.js components", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
   project7TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, React.js, TypeScript, AWS, CI/CD, Gradle, Node.js",

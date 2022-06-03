@@ -128,47 +128,55 @@ const messages = {
 
   // ------------- projects page -------------
   projectDescLabel: "项目描述",
+  projectPeriodLabel: "项目时间",
   projectStackLabel: "技术栈",
   dutyLabel: "我的职责",
 
   // project 1
   project1Name: "日志批处理系统",
+  project1Period: "2019/2 - 2019/4",
   project1Description: "此系统处理其他服务器发来的日志文件，删除其中不必要的部分，然后格式化剩下的日志文件内容，转发给别的服务器",
   project1Duty: ["与客户交流确认式样", "做成详细设计书，单体设计书和结合测试书", "给coding团队说明式样", "给客户做演示"],
   project1TechStack: "Window Batch, Excel, 千手",
 
   // project 2
   project2Name: "B2B视频贩卖系统",
+  project2Period: "2019/5 - 2019/9",
   project2Description: "2019年日本消费税由8%上涨至10%，要对原本项目的页面表示以及服务器点的代码进行修正以满足业务的要求。",
   project2Duty: ["页面表示和服务器端逻辑的修正", "单体测试书做成和单体测试作业", "bug修正和回答QA", "文书整理"],
   project2TechStack: "Java, VB.Net, Tomcat, Linux, HirDB, SVN, FTP",
 
   // project 3
   project3Name: "游戏加密审查系统",
+  project3Period: "2019/10 - 2020/3",
   project3Description: "面向游戏制作厂商，其所发行的游戏需要先经过加密，然后再经由本系统进行加密检查，只有所有的检查都通过，游戏才能正式发售贩卖。",
   project3Duty: ["开发RestFul API", "完成Junit测试的编码", "制作详细设计", "代码审核", "学习会上分享经验和知识"],
   project3TechStack: "Java8, Mysql, Git/Github, Aws, Neuron, Ubuntu, Docker, Jira",
 
   // project 4
   project4Name: "海外旅行酒店预订平台",
+  project4Period: "2020/7 - 2020/9",
   project4Description: "旅游公司可利用本系统团购机票，预订海外酒店，定制化旅行套餐。",
   project4Duty: ["完成新页面的制造和服务器端代码的编写", "制作弹体测试式样书和单体测试实施", "将谷歌地图导入到本系统中"],
   project4TechStack: "Java8, Oracle, Jsp, SVN, JavaScript, Struts1, GoogleMap",
 
   // project 5
   project5Name: "银行转账监视系统",
+  project5Period: "2020/10 - 2020/11",
   project5Description: "使用SpringBatch框架对银行用户的交易信息进行监视，如果发现有用户的转账交易有异常，那么就把该笔转账交易的ID记录到另一张表中。",
   project5Duty: ["设计书做成和监视功能的代码实现", "bug修正和回答QA", "审核设计书和代码"],
   project5TechStack: "Java8, SQLServer, Springboot, SpringBatch, Git/Github",
 
   // project 6
   project6Name: "在线商城订单管理平台",
+  project6Period: "2020/12 - 现在",
   project6Description: "本平台由订单管理，公共部品管理， 存货管理，顾客情报管理和仓库调货管理等模块组成。我主要负责仓库调货管理模块。此模块会先从别的服务器中取到订单数据，然后进行是否需要提供调货服务以及该订单是否合理等检查，最后会把检查完的订单数据发送给别的服务器进行处理。",
   project6Duty: ["设计书做成以及机能实装", "Vue组件实装", "Junit单体测试时装", "bug修正以及回答QA", "审核代码和设计书", "上线部署"],
   project6TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, Vue.js, TypeScript, AWS, CI/CD, Flyway, Gradle",
   
   // project 7
   project7Name: "在线商城文件管理系统",
+  project7Period: "2021/6 - 现在",
   project7Description: "本系统可以对存储在S3上面的业务关联文件进行直接操作，比如上传下载，增加删除等。",
   project7Duty: ["设计书做成和机能时装", "React组件实装", "bug修正和回答QA", "审核代码和设计书", "上线部署"],
   project7TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, React.js, TypeScript, AWS, CI/CD, Gradle, Node.js",

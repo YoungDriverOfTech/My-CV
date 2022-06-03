@@ -15,6 +15,12 @@
           {{ $t("message.project7Description") }} 
         </div>
 
+        <!-- project period -->
+        <div>
+          <span class="boldFont">{{ $t("message.projectPeriodLabel") }} </span>: 
+          {{ $t("message.project7Period") }} 
+        </div>
+
         <!-- my duty -->
         <div>
           <span class="boldFont">{{ $t("message.dutyLabel") }}</span> :
