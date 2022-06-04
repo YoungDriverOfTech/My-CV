@@ -11,8 +11,8 @@ const messages = {
 
   // self introduction info
   self: "Self Introduction",
-  selfIntroduction1: "I am a Java engineer, currently contracted with a Chinese staffing company. My job is mainly developing new systems and maintenance programs. Recently i am looking for regular work.",
-  selfIntroduction2: "My skill sets include familiarity with Java, corresponding data structure and implementation principle, using Spring, Springboot and mybatis, knowing of using Database such as Mysql and Postgre. I am also farmiliar with HTML/JS/CSS and can also use Vue.js and React.js to develop pages.",
+  selfIntroduction1: "I am a Java engineer, currently contracted with a Chinese staffing company. My job is mainly developing new systems and maintenance programs. Recently I am looking for regular work.",
+  selfIntroduction2: "My skill sets include familiarity with Java, corresponding data structure and implementation principle, using Spring, Springboot and mybatis, knowledge with Database such as Mysql and Postgre. I am also farmiliar with HTML/JS/CSS and can also use Vue.js and React.js to develop pages.",
   selfIntroduction3: "Lastly, I can speak three languages; English, Japanese and Chinese.",
 
   // personal infos
@@ -90,9 +90,9 @@ const messages = {
   english: "English",
   japanese: "Japanese",
   toeic: "Toeic",
-  workPeriod: "Work Experiences",
+  workPeriod: "Work Experience",
   year4: "4 years(2019-present)",
-  workExperiences: "Work Experiences",
+  workExperiences: "Work Experience",
 
   programmingLanguages: "Programming Languages",
   framework: "Framework",
@@ -101,21 +101,21 @@ const messages = {
 
   companyQAndF: "株式会社Q&F (2021/4 - current)",
   fullStackEngineer: "Full Stack Software Engineer",
-  qfDuty1: "Developed order management system",
-  qfDuty2: "Developed file store system",
-  qfDuty3: "Reconstructed frontend source code",
-  qfDuty4: "Customized ORM framework",
+  qfDuty1: "Developing order management system",
+  qfDuty2: "Developing file store system",
+  qfDuty3: "Reconstructing frontend source code",
+  qfDuty4: "Customizing ORM framework",
 
   companyGSD: "株式会社GSD (2020/4 - 2021/3)",
   backendEngineer: "Backend Software Engineer",
-  gsdDuty1: "Upgraded tourism reservation platform",
-  gsdDuty2: "Developed bank transaction monitor",
-  gsdDuty3: "Developed order management system",
+  gsdDuty1: "Upgrading of the tourism reservation platform",
+  gsdDuty2: "Development of the bank transaction monitor",
+  gsdDuty3: "Development of the order management system",
 
   companyCPS: "株式会社CPS (2019/2 - 2020/3)",
-  cpsDuty1: "Developed log format system",
-  cpsDuty2: "Upgreded Online shop system",
-  cpsDuty3: "Developed game check system",
+  cpsDuty1: "Development of the log format system",
+  cpsDuty2: "Upgrading of the Online shop system",
+  cpsDuty3: "Developing of the game check system",
 
   education: "Education",
   bachelor: "Bachelor",
@@ -128,10 +128,10 @@ const messages = {
 
 
   // ------------- projects page -------------
-  projectDescLabel: "Project Desc",
+  projectDescLabel: "Project description",
   projectPeriodLabel: "Period",
   projectStackLabel: "Tech Stack",
-  dutyLabel: "My Duty",
+  dutyLabel: "Duties",
 
   // project 1
   project1Name: "Window Batch System",
@@ -171,14 +171,14 @@ const messages = {
   // project 6
   project6Name: "Online Shop Orders Management Platform",
   project6Period: "2020/12 - present",
-  project6Description: "The platform consists of several parts, for example: order management, stock management, customer management and etc. I was in charged of backorder management. The main word flow of backorder management is getting order datas from another server, then starting check whether if oerders need backorder service and update these datas status. Next, orders valid check will be executed. Finally, valid datas will be send to aws s3 storege.",
+  project6Description: "The platform consists of several parts, for example: order management, stock management, customer management, etc. I was in charge of backorder management. The main work flow of backorder management; getting order data from another server; then checking whether if orders need backorder services and updating the data status. Next, completion of data checks and finally, sending of valid data to aws S3 storage.",
   project6Duty: ["Writing application design and coding", "Creating common vue components", "Writing Junit test", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
   project6TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, Vue.js, TypeScript, AWS, CI/CD, Flyway, Gradle",
 
   // project 7
   project7Name: "Online Shop File Management System",
   project7Period: "2021/6 - present",
-  project7Description: "This system is used to manipulate the files, related to business, stored in aws s3. It can upload, download files from the s3 and also can delete directly.",
+  project7Description: "This system is used to manipulate the files, related to business, stored in aws s3. It can upload, download files from the s3 and also can directly delete.",
   project7Duty: ["Writing application design and coding", "Creating react.js components", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
   project7TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, React.js, TypeScript, AWS, CI/CD, Gradle, Node.js",
 
