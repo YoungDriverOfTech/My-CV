@@ -137,14 +137,14 @@ const messages = {
   project1Name: "Windowバッチシステム",
   project1Period: "2019/2 - 2019/4",
   project1Description: "本システムはログ処理システムです。別のサーバから送ってきたログファイルを必要がない情報を削除し、残した部分を整形して、別のサーバに送ります",
-  project1Duty: ["お客様とやりとりして、仕様をを確認すること", " 詳細設計書、単体テスト設計書と結合テスト設計書を作成すること", "製造チームに仕様説明とお客様にプレゼンテーションすること"],
+  project1Duty: ["詳細設計書、単体テスト設計書と結合テスト設計書を作成すること", "製造チームに仕様説明とお客様にプレゼンテーションすること"],
   project1TechStack: "Window バッチ, イクセル, 千手",
 
   // project 2
   project2Name: "B2B食品売買システム",
   project2Period: "2019/5 - 2019/9",
   project2Description: "2019年に消費税が10％になったと伴う、本システムに対して、画面表示内容、DBの更新方法とサーバ側のロジックを修正が必要でした。",
-  project2Duty: ["既存画面の表示修正とサーバー側のロジック修正", "単体テスト設計書作成と単体テスト作業", "バグ修正とQA回答", "成果物整理"],
+  project2Duty: ["既存画面の表示修正とサーバー側のロジック修正", "単体テスト設計書作成と単体テスト作業", "バグ修正とQA回答"],
   project2TechStack: "Java, VB.NET, Tomcat, Linux, HiRDB, SVN, FTP",
 
   // project 3

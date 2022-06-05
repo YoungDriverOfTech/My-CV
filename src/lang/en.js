@@ -137,14 +137,14 @@ const messages = {
   project1Name: "Window Batch System",
   project1Period: "2019/2 - 2019/4",
   project1Description: "This system deals with the logs from the other servers, deleting unnecessary parts and formating these logs, sending them to another server.",
-  project1Duty: ["Communicating with customers and confirming specification", "Writing design and test documents", "Explaining specification for coding team", "Presentation for customers"],
+  project1Duty: ["Writing design and test documents", "Explaining specification for coding team"],
   project1TechStack: "Window Batch, Excel, Senjun",
 
   // project 2
   project2Name: "Food Online Shop",
   project2Period: "2019/5 - 2019/9",
   project2Description: "This is a B2B food online shop system that needed modification to meet the sale tax changing from 8% to 10% in 2019.",
-  project2Duty: ["Modifying existing pages and server side logic", "Writing test documents and doing unit test", "Fixing bugs and answering QA", "Presentation for customers"],
+  project2Duty: ["Modifying existing pages and server side logic", "Writing test documents and doing unit test", "Fixing bugs and answering QA"],
   project2TechStack: "Java, VB.NET, Tomcat, Linux, HiRDB, SVN, FTP",
 
   // project 3
