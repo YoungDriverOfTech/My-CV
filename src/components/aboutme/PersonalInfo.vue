@@ -15,9 +15,9 @@
         <br>
         <strong>{{ $t("message.emailLabel") }}: </strong>xiaoleliang045@gmail.com
         <br>
-        <strong>{{ $t("message.githubLabel") }}: </strong>https://github.com/YoungDriverOfTech
+        <strong>{{ $t("message.githubLabel") }}: </strong><el-link type="success" href="https://github.com/YoungDriverOfTech" target="_blank">YoungDriverOfTech</el-link>
         <br>
-        <strong>{{ $t("message.blogLabel") }}: </strong>https://www.yuque.com/lexiao-1kmgg
+        <strong>{{ $t("message.blogLabel") }}: </strong><el-link type="success" href="https://www.yuque.com/lexiao-1kmgg" target="_blank">Leaining Blog</el-link>
         <br>
         <strong>{{ $t("message.workPeriodLabel") }}: </strong>{{ $t("message.workPeriodValue") }}
       </template>
