@@ -87,6 +87,11 @@ const messages = {
 
 
   // ------------- resume page -------------
+  clickHereDownloadResume: "Please click here to download my resume",
+  pleaseChooseLanguage: "Please choose language",
+  cancel: "Cancel",
+  confirm: "Confirm",
+
   english: "English",
   japanese: "Japanese",
   toeic: "Toeic",

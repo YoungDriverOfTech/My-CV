@@ -87,6 +87,11 @@ const messages = {
 
 
   // ------------- resume page -------------
+  clickHereDownloadResume: "クリックすると、履歴書をダウンロード",
+  pleaseChooseLanguage: "言語を選択してください",
+  cancel: "取消",
+  confirm: "確定",
+
   english: "英語",
   japanese: "日本語",
   toeic: "Toeic",

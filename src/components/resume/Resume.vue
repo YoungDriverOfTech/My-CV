@@ -1,13 +1,18 @@
 <template>
   <div class="parent">
     <!-- download area -->
-    <el-button @click.native="dialogVisible = true" type="primary">Please click here to download my resume<i class="el-icon-download el-icon-right"></i></el-button>
+    <el-button @click.native="dialogVisible = true" type="primary">{{ $t("message.clickHereDownloadResume") }}<i class="el-icon-download el-icon-right"></i></el-button>
     <br><br>
     <el-dialog
-      title="Tips"
       :visible.sync="dialogVisible"
       width="30%">
 
+      <!-- tips -->
+      <div class="subTitle">
+        {{ $t("message.pleaseChooseLanguage") }}
+      </div>
+      <br><br>
+      
       <!-- choose language -->
       <span>
         <el-radio v-model="resumeVersion" label="1">English</el-radio>
@@ -17,8 +22,8 @@
 
       <!-- cancle and confirm -->
       <span slot="footer" class="dialog-footer">
-        <el-button @click="handleClose">Cancel</el-button>
-        <el-button type="primary" v-on:click.native="downloadResume" >Confirm</el-button>
+        <el-button @click="handleClose">{{ $t("message.cancel") }}</el-button>
+        <el-button type="primary" v-on:click.native="downloadResume" >{{ $t("message.confirm") }}</el-button>
       </span>
     </el-dialog>
 

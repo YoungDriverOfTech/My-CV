@@ -86,6 +86,11 @@ const messages = {
 
 
   // ------------- resume page -------------
+  clickHereDownloadResume: "点击可下载简历",
+  pleaseChooseLanguage: "请选择语言",
+  cancel: "取消",
+  confirm: "确定",
+
   english: "英语",
   japanese: "日语",
   toeic: "托业",
