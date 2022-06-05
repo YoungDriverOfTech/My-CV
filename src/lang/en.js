@@ -12,7 +12,7 @@ const messages = {
   // self introduction info
   self: "Self Introduction",
   selfIntroduction1: "I am a Java engineer, currently contracted with a Chinese staffing company. My job is mainly developing new systems and maintenance programs. Recently I am looking for regular work.",
-  selfIntroduction2: "My skill sets include familiarity with Java, corresponding data structure and implementation principle, using Spring, Springboot and mybatis, knowledge with Database such as Mysql and Postgre. I am also farmiliar with HTML/JS/CSS and can also use Vue.js and React.js to develop pages.",
+  selfIntroduction2: "My skill sets include familiarity with Java, corresponding data structure and implementation principle, using Spring, Spring Boot and MyBatis, knowledge with database such as MySQL and PostgreSQL. I am also farmiliar with HTML/JavaScript/CSS and can also use Vue and React to develop pages.",
   selfIntroduction3: "Lastly, I can speak three languages; English, Japanese and Chinese.",
 
   // personal infos
@@ -166,21 +166,21 @@ const messages = {
   project5Period: "2020/10 - 2020/11",
   project5Description: "This system monitors bank users' transactions, which uses different conditions to check whether if users hava suspicious transactions and inserts the transaction id into a table that is used to check who is susupicous.",
   project5Duty: ["Writing application design and coding", "Fixing bugs and answering QA", "Reviewing source code and application design"],
-  project5TechStack: "Java8, SQLServer, Springboot, SpringBatch, Git/Github",
+  project5TechStack: "Java8, SQLServer, Spring Boot, SpringBatch, Git/Github",
 
   // project 6
   project6Name: "Online Shop Orders Management Platform",
   project6Period: "2020/12 - present",
   project6Description: "The platform consists of several parts, for example: order management, stock management, customer management, etc. I was in charge of backorder management. The main work flow of backorder management; getting order data from another server; then checking whether if orders need backorder services and updating the data status. Next, completion of data checks and finally, sending of valid data to aws S3 storage.",
   project6Duty: ["Writing application design and coding", "Creating common vue components", "Writing Junit test", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
-  project6TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, Vue.js, TypeScript, AWS, CI/CD, Flyway, Gradle",
+  project6TechStack: "Java11, Postgre, Spring Boot, SpringJPA, Git/Github, Vue.js, TypeScript, AWS, CI/CD, Flyway, Gradle",
 
   // project 7
   project7Name: "Online Shop File Management System",
   project7Period: "2021/6 - present",
   project7Description: "This system is used to manipulate the files, related to business, stored in aws s3. It can upload, download files from the s3 and also can directly delete.",
   project7Duty: ["Writing application design and coding", "Creating react.js components", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
-  project7TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, React.js, TypeScript, AWS, CI/CD, Gradle, Node.js",
+  project7TechStack: "Java11, Postgre, Spring Boot, SpringJPA, Git/Github, React.js, TypeScript, AWS, CI/CD, Gradle, Node.js",
 
   // ------------- projects page -------------
 }

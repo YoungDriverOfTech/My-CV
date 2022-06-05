@@ -11,7 +11,7 @@ const messages = {
   // self introduction info
   self: "自己紹介",
   selfIntroduction1: "私はJavaのエンジニアで、今ある中国の派遣会社に通っています。主な仕事の内容は新システムの開発とメンテナンスです。今は正社員の仕事を探しています。",
-  selfIntroduction2: "Javaとデータ構造の知識が持っています。Spring，SpringBoot，MyBaitsなどのフレームワークも、MySql、PostgreなどのDBも扱えます。HTML/JS/CSS/Vue/Reactの知識も持っています。",
+  selfIntroduction2: "Javaとデータ構造の知識が持っています。Spring、Spring Boot、 MyBatisなどのフレームワークも、MySQL、PostgreSQLなどのDBも扱えます。HTML/JavaScript/CSS/Vue/Reactの知識も持っています。",
   selfIntroduction3: "今まで、英語、日本語と中国語３言語が話せます、お客様や同僚とスムーズなコミュニケーションができます",
 
   // personal infos
@@ -166,21 +166,21 @@ const messages = {
   project5Period: "2020/10 - 2020/11",
   project5Description: "SpringBatchで銀行の取引をチェックして、もしあるユーザーは疑わしい取引がやったら、該当取引IDを抽出して、別のテーブルに登録する。.",
   project5Duty: ["設計書作成とコーディング", "バグ修正とQA回答", "ソースと設計書のレビュー"],
-  project5TechStack: "Java8, SQLServer, Springboot, SpringBatch, Git/Github",
+  project5TechStack: "Java8, SQLServer, Spring Boot, SpringBatch, Git/Github",
 
   // project 6
   project6Name: "オンラインショップオーダー管理システム",
   project6Period: "2020/12 - 現在",
   project6Description: "本システムはオーダー管理、マスタ管理、在庫管理、顧客情報管理、取り寄せ管理によって構成されています。私は取り寄せ管理機能を担当しています。取り寄せのワークフローは、オーダー情報を別のサーバーから取得して、取り寄せ必要チェックとオーダー有効チェックを行なってから、残ってたオーダー情報を別のサーバーに送ることです。",
   project6Duty: ["設計書作成と実装", "Vue.jsコンポーネントの実装", "Junit単体テスト作成", "バグ修正とQA回答", "ソースと設計書のレビュー", "リリース作業"],
-  project6TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, Vue.js, TypeScript, AWS, CI/CD, Flyway, Gradle",
+  project6TechStack: "Java11, Postgre, Spring Boot, SpringJPA, Git/Github, Vue.js, TypeScript, AWS, CI/CD, Flyway, Gradle",
   
   // project 7
   project7Name: "オンラインショップフィル管理システム",
   project7Period: "2021/6 - 現在",
   project7Description: "本システムはAwsのS3に保存した業務関連のファイルを直接扱えます。例えばアップロード、ダウンロード、消すことができます。",
   project7Duty: ["設計書作成と実装", "Reactのコンポーネントの実装", "バグ修正とQAの回答", "ソースと設計書のレビュー", "リリース作業"],
-  project7TechStack: "Java11, Postgre, Springboot, SpringJPA, Git/Github, React.js, TypeScript, AWS, CI/CD, Gradle, Node.js",
+  project7TechStack: "Java11, Postgre, Spring Boot, SpringJPA, Git/Github, React.js, TypeScript, AWS, CI/CD, Gradle, Node.js",
 
   // ------------- projects page -------------
 }
