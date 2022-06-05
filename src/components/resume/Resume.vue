@@ -5,7 +5,7 @@
     <br><br>
     <el-dialog
       :visible.sync="dialogVisible"
-      width="30%">
+      :width="dialogWidth">
 
       <!-- tips -->
       <div class="subTitle">
@@ -218,6 +218,7 @@ export default {
       dialogVisible: false,
       resumeVersion: '1',
       isShowResume: true,
+      dialogWidth: "30%"
     };
   },
   components: {
@@ -235,6 +236,7 @@ export default {
     let screenWidth = screen.availWidth;
     if (screenWidth <= 600) {
       this.isShowResume = false;
+      this.dialogWidth = "80%";
     }
   },
 
@@ -342,4 +344,17 @@ img {
 .headerStyle {
   margin-bottom: 50px;
 }
+
+/* for pc */
+/* @media (min-width: 600px){
+	.customWidth {
+    width: 30%
+  }
+} */
+
+/* @media (max-width: 599px){
+	.customWidth {
+    width: 80%
+  }
+} */
 </style>
