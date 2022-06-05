@@ -1,8 +1,20 @@
 <template>
   <div class="parent">
-    <el-button v-on:click.native="downloadResume" type="primary">Please click here to download my resume<i class="el-icon-download el-icon-right"></i></el-button>
+    <!-- download area -->
+    <el-button @click.native="dialogVisible = true" type="primary">Please click here to download my resume<i class="el-icon-download el-icon-right"></i></el-button>
     <br><br>
+    <el-dialog
+      title="Tips"
+      :visible.sync="dialogVisible"
+      width="30%">
+      <span>This is a message</span>
+      <span slot="footer" class="dialog-footer">
+        <el-button @click="handleClose">Cancel</el-button>
+        <el-button type="primary" v-on:click.native="downloadResume" >Confirm</el-button>
+      </span>
+    </el-dialog>
 
+    <!-- resume area -->
     <article>
       <header class="headerStyle">
         <div>
@@ -189,7 +201,9 @@ import ResumeProject7 from "../resumeprojects/Project7.vue";
 export default {
   name: "Resume",
   data() {
-    return {};
+    return {
+      dialogVisible: false
+    };
   },
   components: {
     ResumeProject1,
@@ -204,7 +218,11 @@ export default {
   mounted() {},
 
   methods: {
-    downloadResume: () => {
+    handleClose: function() {
+      this.dialogVisible = false;
+    },
+
+    downloadResume: function() {
       axios.get('static/XiaoleLiang-Java-2022.pdf', {
           responseType: 'blob', // keep this blob
         }).then(response => {
@@ -215,6 +233,9 @@ export default {
           link.setAttribute('download', fname);
           document.body.appendChild(link);
           link.click();
+
+          // close dialog
+          this.dialogVisible = false;
         });
     }
   },
