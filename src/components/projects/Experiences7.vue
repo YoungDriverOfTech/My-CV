@@ -1,6 +1,6 @@
 <template>
   <div class="marginTop">
-    <ContentsContainer>
+    <ExperienceContainer>
       <template slot="title">
         <span>
           {{ $t("message.project7Name") }}
@@ -37,12 +37,12 @@
           {{ $t("message.project7TechStack") }} 
         </div>
       </template>
-    </ContentsContainer>
+    </ExperienceContainer>
   </div>
 </template>
 
 <script>
-import ContentsContainer from "../common/ContentsContainer.vue";
+import ExperienceContainer from "../common/ExperienceContainer.vue";
 
 export default {
   name: "Experiences7",
@@ -50,7 +50,7 @@ export default {
     return {};
   },
   components: {
-    ContentsContainer,
+    ExperienceContainer,
   },
 
   mounted() {},

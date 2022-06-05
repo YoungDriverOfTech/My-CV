@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: "ContentsContainer",
+  name: "ExperienceContainer",
   data() {
     return {};
   },
@@ -41,9 +41,9 @@ export default {
   background-color: #ecf3ff;
   color: #333;
   text-align: left;
-  line-height: 60px;
+  /* line-height: 60px; */
   border-left: 4px solid #448aff;
-  
+  padding: 1% 0 0 4%;
 }
 
 .el-main {

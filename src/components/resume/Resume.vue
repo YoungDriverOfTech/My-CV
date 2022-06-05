@@ -28,7 +28,7 @@
     </el-dialog>
 
     <!-- resume area -->
-    <article>
+    <article v-if="isShowResume">
       <header class="headerStyle">
         <div>
           <span class="nameFont">{{ $t("message.nameValue") }}</span>
@@ -188,7 +188,7 @@
     </article>
 
     <!-- projects -->
-    <article>
+    <article v-if="isShowResume">
       <div class="textLeft">
         <ResumeProject7></ResumeProject7>
         <ResumeProject6></ResumeProject6>
@@ -216,7 +216,8 @@ export default {
   data() {
     return {
       dialogVisible: false,
-      resumeVersion: '1'
+      resumeVersion: '1',
+      isShowResume: true,
     };
   },
   components: {
@@ -229,7 +230,13 @@ export default {
     ResumeProject7,
   },
 
-  mounted() {},
+  mounted() {
+    // do not show resume part when device is mobile phone
+    let screenWidth = screen.availWidth;
+    if (screenWidth <= 600) {
+      this.isShowResume = false;
+    }
+  },
 
   methods: {
     handleClose: function() {
