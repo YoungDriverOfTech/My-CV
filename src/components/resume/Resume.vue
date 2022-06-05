@@ -1,5 +1,8 @@
 <template>
   <div class="parent">
+    <el-button v-on:click.native="downloadResume" type="primary">Please click here to download my resume<i class="el-icon-download el-icon-right"></i></el-button>
+    <br><br>
+
     <article>
       <header class="headerStyle">
         <div>
@@ -175,6 +178,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 import ResumeProject1 from "../resumeprojects/Project1.vue";
 import ResumeProject2 from "../resumeprojects/Project2.vue";
 import ResumeProject3 from "../resumeprojects/Project3.vue";
@@ -199,7 +203,21 @@ export default {
 
   mounted() {},
 
-  methods: {},
+  methods: {
+    downloadResume: () => {
+      axios.get('static/XiaoleLiang-Java-2022.pdf', {
+          responseType: 'blob', // keep this blob
+        }).then(response => {
+          const url = window.URL.createObjectURL(new Blob([response.data]));
+          const link = document.createElement('a');
+          let fname = 'resume.pdf';
+          link.href = url;
+          link.setAttribute('download', fname);
+          document.body.appendChild(link);
+          link.click();
+        });
+    }
+  },
 };
 </script>
 
