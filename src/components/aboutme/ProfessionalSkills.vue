@@ -6,7 +6,7 @@
         <el-tabs v-model="activeName" @tab-click="handleClick">
           <!-- IT skills -->
           <el-tab-pane label="Tech" name="first">
-            <!-- skill -->
+            <!-- skill map for pc-->
             <div>
               <div id="skill-area" style="width: `450px; height: 450px"></div>
             </div>
@@ -101,16 +101,18 @@ export default {
     option = {
       radar: {
         indicator: [
-          { name: "Java", max: 100 },
           { name: "Spring/Spring Boot", max: 100 },
-          { name: "JavaScript/TypeScript", max: 100 },
-          { name: "CSS", max: 100 },
+          { name: "Java", max: 100 },
+          { name: "JS", max: 100 },
+          { name: "DB", max: 100 },
           { name: "HTML", max: 100 },
-          { name: "Vue/React", max: 100 },
-          { name: "Database", max: 100 },
-          { name: "Git", max: 100 },
+          { name: "Data Structures and Algorithms", max: 100 },
           { name: "Linux", max: 100 },
-          { name: "Data Structures and Algorithm", max: 100 },
+          { name: "CSS", max: 100 },
+          { name: "Git", max: 100 },
+          { name: "Vue/React", max: 100 },
+          
+          
         ],
       },
       series: [
@@ -119,7 +121,7 @@ export default {
           type: "radar",
           data: [
             {
-              value: [90, 80, 70, 60, 80, 75, 80, 80, 60, 70],
+              value: [80, 90, 75, 75, 80, 70, 65, 65, 85, 75],
               name: "skill score",
             },
           ],
