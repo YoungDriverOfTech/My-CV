@@ -96,7 +96,7 @@ const messages = {
 
   programmingLanguages: "Programming Languages",
   framework: "Framework",
-  software: "SoftWare",
+  software: "Software",
   db: "Database",
 
   companyQAndF: "株式会社Q&F (2021/4 - current)",

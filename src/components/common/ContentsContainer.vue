@@ -1,5 +1,5 @@
 <template>
-  <div class="parentStyle">
+  <div>
     <el-container>
       <el-header class="titleFontStyle">
         <slot name="title"></slot>
@@ -27,10 +27,6 @@ export default {
 </script>
 
 <style scoped>
-
-.parentStyle {
-  /* margin: 0 15%; */
-}
 
 .titleFontStyle {
   color: white;

@@ -12,7 +12,7 @@ const messages = {
   self: "自己紹介",
   selfIntroduction1: "私はJavaのエンジニアで、今ある中国の派遣会社に通っています。主な仕事の内容は新システムの開発とメンテナンスです。今は正社員の仕事を探しています。",
   selfIntroduction2: "Javaとデータ構造の知識が持っています。Spring、Spring Boot、 MyBatisなどのフレームワークも、MySQL、PostgreSQLなどのDBも扱えます。HTML/JavaScript/CSS/Vue/Reactの知識も持っています。",
-  selfIntroduction3: "今まで、英語、日本語と中国語３言語が話せます、お客様や同僚とスムーズなコミュニケーションができます",
+  selfIntroduction3: "今まで、英語、日本語と中国語３言語が話せます、お客様や同僚とスムーズなコミュニケーションができます。",
 
   // personal infos
   personalInfo: "個人情報",
@@ -150,7 +150,7 @@ const messages = {
   // project 3
   project3Name: "ゲーム暗号化審査システム",
   project3Period: "2019/10 - 2020/3",
-  project3Description: "ゲームメーカーさん向けのシステムです。ゲームが正式にpublishまで、色々な審査を行い、審査が全部通る場合は、ゲームが販売されることが可能です。",
+  project3Description: "ゲームメーカーさん向けのシステムです。ゲームが正式に発表するまで、色々な暗号化審査を行い、審査が全部通る場合は、ゲームが販売されることが可能です。",
   project3Duty: ["RESTful APIの開発", "Junit単体テストの作成", "設計書を作成", "ソースレビュー", "勉強会で知識や経験の共有"],
   project3TechStack: "Java8, MySQL, Git/Github, AWS, Neuron, Ubuntu, Docker, Jira",
 
@@ -158,27 +158,27 @@ const messages = {
   project4Name: "海外旅行ホテル予約システム",
   project4Period: "2020/7 - 2020/9",
   project4Description: "旅行会社が本システムを利用して、飛行機チケットを購入、海外のホテルを予約、旅行コースをカスタマイズすることができます。",
-  project4Duty: ["新規画面とサーバーサイドロジック作成", "単体テスト仕様書作成とテストの実施", "Googleマップを本システムに導入"],
+  project4Duty: ["新規画面とサーバーサイドロジック作成", "単体テスト仕様書作成とテストの実施", "グーグルマップを本システムに導入"],
   project4TechStack: "Java8, Oracle, JSP, SVN, JavaScript, Struts1, Google Maps",
 
   // project 5
   project5Name: "銀行取引監視システム",
   project5Period: "2020/10 - 2020/11",
-  project5Description: "SpringBatchで銀行の取引をチェックして、もしあるユーザーは疑わしい取引がやったら、該当取引IDを抽出して、別のテーブルに登録する。.",
+  project5Description: "Spring Batchで銀行の取引をチェックして、もしあるユーザーは疑わしい取引があったら、該当取引IDを抽出して、別のテーブルに登録する。",
   project5Duty: ["設計書作成とコーディング", "バグ修正とQA回答", "ソースと設計書のレビュー"],
   project5TechStack: "Java8, SQL Server, Spring Boot, Spring Batch, Git/Github",
 
   // project 6
   project6Name: "オンラインショップオーダー管理システム",
   project6Period: "2020/12 - 現在",
-  project6Description: "本システムはオーダー管理、マスタ管理、在庫管理、顧客情報管理、取り寄せ管理によって構成されています。私は取り寄せ管理機能を担当しています。取り寄せのワークフローは、オーダー情報を別のサーバーから取得して、取り寄せ必要チェックとオーダー有効チェックを行なってから、残ってたオーダー情報を別のサーバーに送ることです。",
+  project6Description: "本システムはオーダー管理、マスタ管理、在庫管理、顧客情報管理、取り寄せ管理によって構成されています。私は取り寄せ管理機能を担当しています。取り寄せのワークフローは、オーダー情報を別のサーバーから取得して、取り寄せ必要チェックとオーダー有効チェックを行なってから、残ってたオーダー情報を別のサーバーに送って、AWSのS3にアップロードします。",
   project6Duty: ["設計書作成と実装", "Vue.jsコンポーネントの実装", "Junit単体テスト作成", "バグ修正とQA回答", "ソースと設計書のレビュー", "リリース作業"],
   project6TechStack: "Java11, PostgreSQL, Spring Boot, Spring Data JPA, Git/Github, Vue, TypeScript, AWS, CI/CD, Flyway, Gradle",
   
   // project 7
-  project7Name: "オンラインショップフィル管理システム",
+  project7Name: "フィル管理システム",
   project7Period: "2021/6 - 現在",
-  project7Description: "本システムはAwsのS3に保存した業務関連のファイルを直接扱えます。例えばアップロード、ダウンロード、消すことができます。",
+  project7Description: "本システムはAWS上のS3に保存した業務関連のファイルを直接扱えます。主な機能はアップロード、ダウンロード、フィル削除、ファイル編集などです。",
   project7Duty: ["設計書作成と実装", "Reactのコンポーネントの実装", "バグ修正とQAの回答", "ソースと設計書のレビュー", "リリース作業"],
   project7TechStack: "Java11, PostgreSQL, Spring Boot, Spring Data JPA, Git/Github, React, TypeScript, AWS, CI/CD, Gradle, Node.js",
 

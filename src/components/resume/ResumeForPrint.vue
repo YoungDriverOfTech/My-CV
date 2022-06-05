@@ -83,7 +83,7 @@
 
             <div class="subTitle">{{ $t("message.framework") }}</div>
             <div class="marginOfItem">
-              Spring, Springboot, Mybatis, Vue, React
+              Spring, Spring Boot, MyBatis, Vue, React
             </div>
 
             <div class="subTitle">{{ $t("message.software") }}</div>
@@ -91,7 +91,7 @@
 
             <div class="subTitle">{{ $t("message.db") }}</div>
             <div class="marginOfItem">
-              Mysql, Oracle, Postgre, SqlServer, Hirdb
+              MySQL, Oracle, PostgreSQL, SQL Server, HIRDB
             </div>
           </div>
         </div>

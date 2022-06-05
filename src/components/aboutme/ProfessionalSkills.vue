@@ -108,7 +108,7 @@ export default {
           { name: "HTML", max: 100 },
           { name: "Vue/React", max: 100 },
           { name: "Database", max: 100 },
-          { name: "Git//SVN", max: 100 },
+          { name: "Git", max: 100 },
           { name: "Linux", max: 100 },
           { name: "Data Structures and Algorithm", max: 100 },
         ],
