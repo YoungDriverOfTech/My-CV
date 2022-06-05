@@ -8,7 +8,7 @@
 
         <p class="basicInfoFlexLayout">
           <img src="../../assets/images/phone.png" />
-          <span class="basicInfoBottomMargin">090-0000-0000</span
+          <span class="basicInfoBottomMargin">090-6746-0742</span
           >&nbsp;&nbsp;&nbsp;
 
           <img src="../../assets/images/email.png" />
@@ -220,7 +220,7 @@ article {
   margin: 0 auto;
   overflow: auto;
   padding: 1em;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin-top: 30px;
 }
 

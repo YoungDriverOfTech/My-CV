@@ -15,7 +15,7 @@ Vue.use(ElementUI);
 Vue.use(VueI18n)
 
 const i18n = new VueI18n({
-  locale: 'zh', // set zone
+  locale: 'en', // set zone
   messages: messages, // set zone messages
 })
 
