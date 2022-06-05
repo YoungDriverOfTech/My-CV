@@ -6,7 +6,7 @@ const messages = {
   whoResume: "Liang's Resume",
   aboutMe: "About me",
   resume: "Resume",
-  experiences: "Experiences",
+  experiences: "Projects",
   chooseLanguage: "Language",
 
   // self introduction info

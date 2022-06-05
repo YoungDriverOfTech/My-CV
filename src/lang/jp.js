@@ -87,7 +87,7 @@ const messages = {
 
 
   // ------------- resume page -------------
-  clickHereDownloadResume: "クリックすると、履歴書をダウンロード",
+  clickHereDownloadResume: "クリックすると、履歴書ダウンロードができます",
   pleaseChooseLanguage: "言語を選択してください",
   cancel: "取消",
   confirm: "確定",

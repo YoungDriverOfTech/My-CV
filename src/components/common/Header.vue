@@ -21,13 +21,14 @@
           <el-button type="primary" plain>{{ $t("message.aboutMe") }}</el-button>
         </router-link>
 
-        <router-link to="/resumepage">
-          <el-button type="success" plain>{{ $t("message.resume") }}</el-button>
-        </router-link>
-
         <router-link to="/project">
           <el-button type="warning" plain>{{ $t("message.experiences") }}</el-button>
         </router-link>
+
+        <router-link to="/resumepage">
+          <el-button type="success" plain>{{ $t("message.resume") }}</el-button>
+        </router-link>
+        
       </el-row>
     </div>
   </div>
