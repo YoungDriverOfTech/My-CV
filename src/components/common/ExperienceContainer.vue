@@ -43,7 +43,7 @@ export default {
   text-align: left;
   /* line-height: 60px; */
   border-left: 4px solid #448aff;
-  padding: 1% 0 0 4%;
+  padding: 1% 0 0 1%;
 }
 
 .el-main {
