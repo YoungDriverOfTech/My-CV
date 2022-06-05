@@ -7,7 +7,15 @@
       title="Tips"
       :visible.sync="dialogVisible"
       width="30%">
-      <span>This is a message</span>
+
+      <!-- choose language -->
+      <span>
+        <el-radio v-model="resumeVersion" label="1">English</el-radio>
+        <el-radio v-model="resumeVersion" label="2">日本語</el-radio>
+        <el-radio v-model="resumeVersion" label="3">中文</el-radio>
+      </span>
+
+      <!-- cancle and confirm -->
       <span slot="footer" class="dialog-footer">
         <el-button @click="handleClose">Cancel</el-button>
         <el-button type="primary" v-on:click.native="downloadResume" >Confirm</el-button>
@@ -202,7 +210,8 @@ export default {
   name: "Resume",
   data() {
     return {
-      dialogVisible: false
+      dialogVisible: false,
+      resumeVersion: '1'
     };
   },
   components: {
@@ -223,12 +232,21 @@ export default {
     },
 
     downloadResume: function() {
-      axios.get('static/XiaoleLiang-Java-2022.pdf', {
+      let resumeFileName = "";
+      if (this.resumeVersion === "1") {
+        resumeFileName = "XiaoleLiang-Java-2022.pdf";
+      } else if (this.resumeVersion === "2") {
+        resumeFileName = "梁小楽-Java-2022.pdf";
+      } else {
+        resumeFileName = "梁小乐-Java-2022.pdf";
+      }
+
+      axios.get('static/' + resumeFileName, {
           responseType: 'blob', // keep this blob
         }).then(response => {
           const url = window.URL.createObjectURL(new Blob([response.data]));
           const link = document.createElement('a');
-          let fname = 'resume.pdf';
+          let fname = resumeFileName;
           link.href = url;
           link.setAttribute('download', fname);
           document.body.appendChild(link);
