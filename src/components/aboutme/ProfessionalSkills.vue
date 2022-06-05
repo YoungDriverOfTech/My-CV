@@ -102,13 +102,15 @@ export default {
       radar: {
         indicator: [
           { name: "Java", max: 100 },
-          { name: "Spring", max: 100 },
-          { name: "JS", max: 100 },
+          { name: "Spring/Spring Boot", max: 100 },
+          { name: "JavaScript/TypeScript", max: 100 },
           { name: "CSS", max: 100 },
           { name: "HTML", max: 100 },
-          { name: "Vue", max: 100 },
-          { name: "DB", max: 100 },
-          { name: "React", max: 100 },
+          { name: "Vue/React", max: 100 },
+          { name: "Database", max: 100 },
+          { name: "Git//SVN", max: 100 },
+          { name: "Linux", max: 100 },
+          { name: "Data Structures and Algorithm", max: 100 },
         ],
       },
       series: [
@@ -117,7 +119,7 @@ export default {
           type: "radar",
           data: [
             {
-              value: [90, 90, 80, 70, 90, 80, 80, 80],
+              value: [90, 80, 70, 60, 80, 75, 80, 80, 60, 70],
               name: "skill score",
             },
           ],
