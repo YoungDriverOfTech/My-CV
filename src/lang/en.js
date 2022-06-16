@@ -36,7 +36,7 @@ const messages = {
   blogLabel: "Blog",
 
   workPeriodLabel: "Work period",
-  workPeriodValue: "4 years",
+  workPeriodValue: "3 years",
 
   // skills
   skills: "Skills",
@@ -96,7 +96,7 @@ const messages = {
   japanese: "Japanese",
   toeic: "Toeic",
   workPeriod: "Work Experience",
-  year4: "4 years(2019-present)",
+  year3: "3 years(2019-present)",
   workExperiences: "Work Experience",
 
   programmingLanguages: "Programming Languages",

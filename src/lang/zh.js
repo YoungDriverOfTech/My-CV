@@ -37,7 +37,7 @@ const messages = {
   blogValue: "https://www.yuque.com/lexiao-1kmgg",
 
   workPeriodLabel: "工作年限",
-  workPeriodValue: "4 年",
+  workPeriodValue: "3 年",
 
   // skills
   skills: "技能",
@@ -95,7 +95,7 @@ const messages = {
   japanese: "日语",
   toeic: "托业",
   workPeriod: "工作年限",
-  year4: "4年(2019-现在)",
+  year3: "3年(2019-现在)",
   workExperiences: "工作经历",
 
   programmingLanguages: "编程语言",

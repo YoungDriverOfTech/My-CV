@@ -71,7 +71,7 @@
             <div class="marginOfItem">https://www.yuque.com/lexiao-1kmgg</div>
 
             <div class="subTitle">{{ $t("message.workPeriod") }}</div>
-            <div class="marginOfItem">{{ $t("message.year4") }}</div>
+            <div class="marginOfItem">{{ $t("message.year3") }}</div>
           </div>
           <br />
 
