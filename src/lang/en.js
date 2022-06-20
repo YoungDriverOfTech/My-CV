@@ -104,20 +104,20 @@ const messages = {
   software: "Software",
   db: "Database",
 
-  companyQAndF: "株式会社Q&F (2021/4 - current)",
+  companyQAndF: "Q&F Co., Ltd.(2021/4 - current)",
   fullStackEngineer: "Full Stack Software Engineer",
   qfDuty1: "Developing order management system",
   qfDuty2: "Developing file store system",
   qfDuty3: "Reconstructing frontend source code",
   qfDuty4: "Customizing ORM framework",
 
-  companyGSD: "株式会社GSD (2020/4 - 2021/3)",
+  companyGSD: "GSD Co., Ltd.(2020/4 - 2021/3)",
   backendEngineer: "Backend Software Engineer",
   gsdDuty1: "Upgrading of the tourism reservation platform",
   gsdDuty2: "Development of the bank transaction monitor",
   gsdDuty3: "Development of the order management system",
 
-  companyCPS: "株式会社CPS (2019/2 - 2020/3)",
+  companyCPS: "CPS Co., Ltd.(2019/2 - 2020/3)",
   cpsDuty1: "Development of the log format system",
   cpsDuty2: "Upgrading of the Online shop system",
   cpsDuty3: "Developing of the game check system",
