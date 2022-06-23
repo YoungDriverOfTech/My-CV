@@ -13,7 +13,7 @@
         <br>
         <strong>{{ $t("message.currentStatusLabel") }}: </strong>{{ $t("message.currentStatusValue") }}
         <br>
-        <strong>{{ $t("message.emailLabel") }}: </strong>xiaoleliang045@gmail.com
+        <strong>{{ $t("message.emailLabel") }}: </strong><el-link type="primary" href="mailto:xiaoleliang045@gmail.com" target="_blank">xiaoleliang045@gmail.com</el-link>
         <br>
         <strong>{{ $t("message.githubLabel") }}: </strong><el-link type="primary" href="https://github.com/YoungDriverOfTech" target="_blank">YoungDriverOfTech</el-link>
         <br>

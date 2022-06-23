@@ -40,7 +40,9 @@
           >&nbsp;&nbsp;&nbsp;
 
           <img src="../../assets/images/email.png" />
-          <span>xiaoleliang045@gmail.com</span>&nbsp;&nbsp;&nbsp;
+          <span>
+            <el-link type="primary" href="mailto:xiaoleliang045@gmail.com" target="_blank">xiaoleliang045@gmail.com</el-link>
+          </span>&nbsp;&nbsp;&nbsp;
 
           <img src="../../assets/images/location.png" />
           <span>{{ $t("message.locationValue") }}</span
