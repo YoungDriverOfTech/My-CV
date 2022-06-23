@@ -47,7 +47,7 @@
           >&nbsp;&nbsp;&nbsp;
 
           <img src="../../assets/images/github.png" />
-          <span>YoungDriverOfTech</span>
+          <span><el-link type="primary" href="https://github.com/YoungDriverOfTech" target="_blank">YoungDriverOfTech</el-link></span>
         </p>
       </header>
 
@@ -68,7 +68,7 @@
             </div>
 
             <div class="subTitle">{{ $t("message.blogLabel") }}</div>
-            <div class="marginOfItem">https://www.yuque.com/lexiao-1kmgg</div>
+            <div class="marginOfItem"><el-link type="primary" href="https://www.yuque.com/lexiao-1kmgg" target="_blank">https://www.yuque.com/lexiao-1kmgg</el-link></div>
 
             <div class="subTitle">{{ $t("message.workPeriod") }}</div>
             <div class="marginOfItem">{{ $t("message.year3") }}</div>
@@ -132,9 +132,11 @@
           </div>
           <div>
             <h3>
-              <span>{{ $t("message.companyQAndF") }}</span>
-              <br />
               <span>{{ $t("message.fullStackEngineer") }}</span>
+              <br />
+              <span>
+                <el-link type="primary" href="http://www.qf-japan.com/index.html" target="_blank">{{ $t("message.companyQAndF") }}</el-link>
+              </span>
             </h3>
             <ul>
               <li>{{ $t("message.qfDuty1") }}</li>
@@ -146,9 +148,11 @@
 
           <div>
             <h3>
-              <span>{{ $t("message.companyGSD") }}</span>
-              <br />
               <span>{{ $t("message.backendEngineer") }}</span>
+              <br />
+              <span>
+                <el-link type="primary" href="http://www.g-s-d.co.jp/index.php" target="_blank">{{ $t("message.companyGSD") }}</el-link>
+              </span>
             </h3>
             <ul>
               <li>{{ $t("message.gsdDuty1") }}</li>
@@ -159,9 +163,11 @@
 
           <div>
             <h3>
-              <span>{{ $t("message.companyCPS") }}</span>
-              <br />
               <span>{{ $t("message.backendEngineer") }}</span>
+              <br />
+              <span>
+                <el-link type="primary" href="http://www.cps-soft.co.jp/" target="_blank">{{ $t("message.companyCPS") }}</el-link>
+              </span>
             </h3>
             <ul>
               <li>{{ $t("message.cpsDuty1") }}</li>
