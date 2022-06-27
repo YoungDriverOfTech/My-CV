@@ -11,7 +11,7 @@ const messages = {
 
   // self introduction info
   self: "Self Introduction",
-  selfIntroduction1: "I am a Java engineer, currently contracted with a Chinese staffing company. My job is mainly developing new systems and maintenance programs. Recently I am looking for regular work.",
+  selfIntroduction1: "I am a Java engineer, currently contracted with a Chinese staffing company. My job is mainly developing new systems and maintenance programs. Recently I am looking for full time work.",
   selfIntroduction2: "My skill sets include familiarity with Java, corresponding data structure and implementation principle, using Spring, Spring Boot and MyBatis, knowledge with database such as MySQL and PostgreSQL. I am also farmiliar with HTML/JavaScript/CSS and can also use Vue and React to develop pages.",
   selfIntroduction3: "Lastly, I can speak three languages; English, Japanese and Chinese.",
 
