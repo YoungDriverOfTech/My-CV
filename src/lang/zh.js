@@ -108,7 +108,7 @@ const messages = {
   qfDuty1: "开发订单管理系统",
   qfDuty2: "开发文件保管系统",
   qfDuty3: "前端代码重构",
-  qfDuty4: "定制ROM框架服务",
+  qfDuty4: "开发微型ORM框架",
 
   companyGSD: "株式会社GSD (2020/4 - 2021/3)",
   backendEngineer: "后端工程师",

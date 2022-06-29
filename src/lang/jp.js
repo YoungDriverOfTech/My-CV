@@ -109,7 +109,7 @@ const messages = {
   qfDuty1: "受注管理システム開発",
   qfDuty2: "ファイル保管システム開発",
   qfDuty3: "フロントエンドのソースを再構築",
-  qfDuty4: "ORMフレームワークをカスタマイズ化",
+  qfDuty4: "マイクロORMフレームワークの開発",
 
   companyGSD: "株式会社GSD (2020/4 - 2021/3)",
   backendEngineer: "バックエンドエンジニア",

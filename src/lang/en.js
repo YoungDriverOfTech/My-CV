@@ -109,7 +109,7 @@ const messages = {
   qfDuty1: "Developing order management system",
   qfDuty2: "Developing file store system",
   qfDuty3: "Reconstructing frontend source code",
-  qfDuty4: "Customizing ORM framework",
+  qfDuty4: "Development of micro ORM framework",
 
   companyGSD: "GSD Co., Ltd.(2020/4 - 2021/3)",
   backendEngineer: "Backend Software Engineer",
