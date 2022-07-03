@@ -183,7 +183,7 @@ const messages = {
   // project 7
   project7Name: "Online Shop File Management System",
   project7Period: "2021/6 - present",
-  project7Description: "This system is used to manipulate the files related to business, stored in aws s3. It can upload, download files from the s3 and also can directly delete.",
+  project7Description: "This system is used to manipulate the files related to business, stored in AWS s3. It can upload, download files from the s3 and also can directly delete.",
   project7Duty: ["Writing application design and coding", "Creating react.js components", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
   project7TechStack: "Java11, PostgreSQL, Spring Boot, Spring Data JPA, Git/Github, React, TypeScript, AWS, CI/CD, Gradle, Node.js",
 
