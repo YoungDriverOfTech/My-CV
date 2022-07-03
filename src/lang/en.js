@@ -119,7 +119,7 @@ const messages = {
 
   companyCPS: "CPS Co., Ltd.(2019/2 - 2020/3)",
   cpsDuty1: "Development of the log format system",
-  cpsDuty2: "Upgradment of the Online shop system",
+  cpsDuty2: "Upgradment of the online shop system",
   cpsDuty3: "Development of the game check system",
 
   education: "Education",
