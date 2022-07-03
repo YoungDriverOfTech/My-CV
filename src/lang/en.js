@@ -106,21 +106,21 @@ const messages = {
 
   companyQAndF: "Q&F Co., Ltd.(2021/4 - current)",
   fullStackEngineer: "Full Stack Software Engineer",
-  qfDuty1: "Developing order management system",
-  qfDuty2: "Developing file store system",
-  qfDuty3: "Reconstructing frontend source code",
-  qfDuty4: "Development of micro ORM framework",
+  qfDuty1: "Developing the order management system",
+  qfDuty2: "Developing the file storage system",
+  qfDuty3: "Reconstructing the frontend source code",
+  qfDuty4: "Development of the micro ORM framework",
 
   companyGSD: "GSD Co., Ltd.(2020/4 - 2021/3)",
   backendEngineer: "Backend Software Engineer",
-  gsdDuty1: "Upgrading of the tourism reservation platform",
+  gsdDuty1: "Upgradment of the tourism reservation platform",
   gsdDuty2: "Development of the bank transaction monitor",
   gsdDuty3: "Development of the order management system",
 
   companyCPS: "CPS Co., Ltd.(2019/2 - 2020/3)",
   cpsDuty1: "Development of the log format system",
-  cpsDuty2: "Upgrading of the Online shop system",
-  cpsDuty3: "Developing of the game check system",
+  cpsDuty2: "Upgradment of the Online shop system",
+  cpsDuty3: "Development of the game check system",
 
   education: "Education",
   bachelor: "Bachelor",
@@ -141,7 +141,7 @@ const messages = {
   // project 1
   project1Name: "Window Batch System",
   project1Period: "2019/2 - 2019/4",
-  project1Description: "This system deals with the logs from the other servers, deleting unnecessary parts and formating these logs, sending them to another server.",
+  project1Description: "This system deals with the logs from the other servers, deleting unnecessary parts and formating these logs to send to another server.",
   project1Duty: ["Writing design and test documents", "Explaining specification for coding team"],
   project1TechStack: "Window Batch, Excel, Senjun",
 
@@ -162,14 +162,14 @@ const messages = {
   // project 4
   project4Name: "Overseas Trip Hotel Reservation Platform",
   project4Period: "2020/7 - 2020/9",
-  project4Description: "The tourism companies can use this platform to reserve hotels, customize trip courses and buy airplane tickets.",
+  project4Description: "Tourism companies can use this platform to reserve hotels, customize trip courses and buy airplane tickets.",
   project4Duty: ["Creating new pages and writing server side code", "Writing unit test design and testing", "Importing Google Maps into current system"],
   project4TechStack: "Java8, Oracle, JSP, SVN, JavaScript, Struts1, Google Maps",
 
   // project 5
   project5Name: "Bank Transactions Monitoring System",
   project5Period: "2020/10 - 2020/11",
-  project5Description: "This system monitors bank users' transactions, which uses different conditions to check whether if users have suspicious transactions and inserts the transaction id into a table that is used to check who is suspicious.",
+  project5Description: "This system monitors bank users' transactions, which uses different conditions to check if users have suspicious transactions. It inserts the transaction id into a table that is used to check who is suspicious.",
   project5Duty: ["Writing application design and coding", "Fixing bugs and answering QA", "Reviewing source code and application design"],
   project5TechStack: "Java8, SQL Server, Spring Boot, Spring Batch, Git/Github",
 
@@ -177,13 +177,13 @@ const messages = {
   project6Name: "Online Shop Orders Management Platform",
   project6Period: "2020/12 - present",
   project6Description: "The platform consists of several parts, for example: order management, stock management, customer management, etc. I was in charge of backorder management. The main work flow of backorder management; getting order data from another server; then checking whether if orders need backorder services and updating the data status. Next, completion of data checks and finally, sending of valid data to aws S3 storage.",
-  project6Duty: ["Writing application design and coding", "Creating common vue components", "Writing Junit test", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
+  project6Duty: ["Writing application design and coding", "Creating Vue components", "Writing Junit test", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
   project6TechStack: "Java11, PostgreSQL, Spring Boot, Spring Data JPA, Git/Github, Vue, TypeScript, AWS, CI/CD, Flyway, Gradle",
 
   // project 7
   project7Name: "Online Shop File Management System",
   project7Period: "2021/6 - present",
-  project7Description: "This system is used to manipulate the files, related to business, stored in aws s3. It can upload, download files from the s3 and also can directly delete.",
+  project7Description: "This system is used to manipulate the files related to business, stored in aws s3. It can upload, download files from the s3 and also can directly delete.",
   project7Duty: ["Writing application design and coding", "Creating react.js components", "Fixing bugs and answering QA", "Reviewing source code and application design", "Releasing and deployment"],
   project7TechStack: "Java11, PostgreSQL, Spring Boot, Spring Data JPA, Git/Github, React, TypeScript, AWS, CI/CD, Gradle, Node.js",
 
