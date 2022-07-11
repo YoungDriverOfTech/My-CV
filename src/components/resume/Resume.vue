@@ -256,11 +256,11 @@ export default {
     downloadResume: function() {
       let resumeFileName = "";
       if (this.resumeVersion === "1") {
-        resumeFileName = "XiaoleLiang-Java-2022.pdf";
+        resumeFileName = "XiaoleLiang-Java-developer.pdf";
       } else if (this.resumeVersion === "2") {
-        resumeFileName = "梁小楽-Java-2022.pdf";
+        resumeFileName = "梁小楽-Java-developer.pdf";
       } else {
-        resumeFileName = "梁小乐-Java-2022.pdf";
+        resumeFileName = "梁小乐-Java-developer.pdf";
       }
 
       axios.get('static/' + resumeFileName, {
