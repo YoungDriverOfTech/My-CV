@@ -106,6 +106,6 @@ export default {
 }
 
 .language-text-color {
-  color: #E6A23C;
+  color: #F56C6C;
 }
 </style>
