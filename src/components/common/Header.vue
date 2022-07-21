@@ -5,7 +5,7 @@
       <div>{{ $t("message.whoResume") }}</div>
       <el-dropdown trigger="click">
         <span class="el-dropdown-link">
-          {{ $t("message.chooseLanguage") }}<i class="el-icon-arrow-down el-icon--right"></i>
+          <span class="language-text-color">{{ $t("message.chooseLanguage") }}</span><i class="el-icon-arrow-down el-icon--right"></i>
         </span>
         <el-dropdown-menu v-on:click.native="changeLang" slot="dropdown">
           <el-dropdown-item value=0>English</el-dropdown-item>
@@ -103,5 +103,9 @@ export default {
 }
 .el-icon-arrow-down {
   font-size: 12px;
+}
+
+.language-text-color {
+  color: #E6A23C;
 }
 </style>
