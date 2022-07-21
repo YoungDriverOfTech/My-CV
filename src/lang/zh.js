@@ -87,11 +87,11 @@ const messages = {
 
   // ------------- resume page -------------
   clickHereDownloadResume: "点击可下载简历",
-  pleaseChooseLanguage: "请选择语言",
+  pleaseChooseLanguage: "请选择语言和简历版本",
   cancel: "取消",
   confirm: "确定",
-  onePage: "1页",
-  threePages: "3页",
+  onePage: "基本版",
+  threePages: "详细版",
 
   english: "英语",
   japanese: "日语",

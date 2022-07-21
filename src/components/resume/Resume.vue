@@ -19,7 +19,7 @@
         <el-radio v-model="resumeVersion" label="2">日本語</el-radio>
         <el-radio v-model="resumeVersion" label="3">中文</el-radio>
       </span>
-      <br/>
+      <br><br>
       <span>
         <el-radio v-model="resumePage" label="1">{{ $t("message.onePage") }}</el-radio>
         <el-radio v-model="resumePage" label="2">{{ $t("message.threePages") }}</el-radio>

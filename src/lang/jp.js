@@ -88,11 +88,11 @@ const messages = {
 
   // ------------- resume page -------------
   clickHereDownloadResume: "クリックすると、履歴書ダウンロードができます",
-  pleaseChooseLanguage: "言語を選択してください",
+  pleaseChooseLanguage: "言語とCVバージョンを選択してください",
   cancel: "取消",
   confirm: "確定",
-  onePage: "１ページ",
-  threePages: "３ページ",
+  onePage: "基本版",
+  threePages: "詳細版",
 
   english: "英語",
   japanese: "日本語",

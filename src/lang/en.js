@@ -88,11 +88,11 @@ const messages = {
 
   // ------------- resume page -------------
   clickHereDownloadResume: "Please click here to download my resume",
-  pleaseChooseLanguage: "Please choose language",
+  pleaseChooseLanguage: "Please choose language and CV version",
   cancel: "Cancel",
   confirm: "Confirm",
-  onePage: "One page",
-  threePages: "Three pages",
+  onePage: "Basic Version",
+  threePages: "Detail Version",
 
   english: "English",
   japanese: "Japanese",
