@@ -91,6 +91,8 @@ const messages = {
   pleaseChooseLanguage: "言語を選択してください",
   cancel: "取消",
   confirm: "確定",
+  onePage: "１ページ",
+  threePages: "３ページ",
 
   english: "英語",
   japanese: "日本語",

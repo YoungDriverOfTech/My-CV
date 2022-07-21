@@ -19,6 +19,11 @@
         <el-radio v-model="resumeVersion" label="2">日本語</el-radio>
         <el-radio v-model="resumeVersion" label="3">中文</el-radio>
       </span>
+      <br/>
+      <span>
+        <el-radio v-model="resumePage" label="1">{{ $t("message.onePage") }}</el-radio>
+        <el-radio v-model="resumePage" label="2">{{ $t("message.threePages") }}</el-radio>
+      </span>
 
       <!-- cancle and confirm -->
       <span slot="footer" class="dialog-footer">
@@ -225,6 +230,7 @@ export default {
     return {
       dialogVisible: false,
       resumeVersion: '1',
+      resumePage: '1',
       isShowResume: true,
       dialogWidth: "30%"
     };
@@ -255,12 +261,26 @@ export default {
 
     downloadResume: function() {
       let resumeFileName = "";
-      if (this.resumeVersion === "1") {
-        resumeFileName = "XiaoleLiang-Java-developer.pdf";
-      } else if (this.resumeVersion === "2") {
-        resumeFileName = "梁小楽-Java-developer.pdf";
+
+      // choose one page
+      if (this.resumePage === "1") {
+        if (this.resumeVersion === "1") {
+          resumeFileName = "XiaoleLiang-Java-developer.pdf";
+        } else if (this.resumeVersion === "2") {
+          resumeFileName = "梁小楽-Java-developer.pdf";
+        } else {
+          resumeFileName = "梁小乐-Java-developer.pdf";
+        }
       } else {
-        resumeFileName = "梁小乐-Java-developer.pdf";
+
+        // choose three page
+        if (this.resumeVersion === "1") {
+          resumeFileName = "XiaoleLiang-Java.pdf";
+        } else if (this.resumeVersion === "2") {
+          resumeFileName = "梁小楽-Java.pdf";
+        } else {
+          resumeFileName = "梁小乐-Java.pdf";
+        }
       }
 
       axios.get('static/' + resumeFileName, {

@@ -91,6 +91,8 @@ const messages = {
   pleaseChooseLanguage: "Please choose language",
   cancel: "Cancel",
   confirm: "Confirm",
+  onePage: "One page",
+  threePages: "Three pages",
 
   english: "English",
   japanese: "Japanese",

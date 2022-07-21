@@ -90,6 +90,8 @@ const messages = {
   pleaseChooseLanguage: "请选择语言",
   cancel: "取消",
   confirm: "确定",
+  onePage: "1页",
+  threePages: "3页",
 
   english: "英语",
   japanese: "日语",
