@@ -115,16 +115,16 @@ const messages = {
 
   companyGSD: "株式会社GSD (2020/4 - 2021/3)",
   backendEngineer: "バックエンドエンジニア",
-  gsdDuty1: "海外ホテル予約システムバージョンーアップ",
+  gsdDuty1: "海外ホテル予約システムバージョンアップ",
   gsdDuty2: "銀行取引監視システム開発",
   gsdDuty3: "受注管理システム開発",
 
   companyCPS: "株式会社CPS (2019/2 - 2020/3)",
-  cpsDuty1: "ログフォマット化システム開発",
+  cpsDuty1: "ログフォーマット化システム開発",
   cpsDuty2: "食品販売システムバージョンアップ",
   cpsDuty3: "ゲーム審査システム開発",
 
-  education: "教育",
+  education: "学歴",
   bachelor: "専攻",
   major: "財務管理",
   universityPeriod: "期間",
@@ -143,14 +143,14 @@ const messages = {
   // project 1
   project1Name: "Windowバッチシステム",
   project1Period: "2019/2 - 2019/4",
-  project1Description: "本システムはログ処理システムです。別のサーバから送ってきたログファイルを必要がない情報を削除し、残した部分を整形して、別のサーバに送ります",
-  project1Duty: ["詳細設計書、単体テスト設計書と結合テスト設計書を作成すること", "製造チームに仕様説明とお客様にプレゼンテーションすること"],
-  project1TechStack: "Window バッチ, イクセル, 千手",
+  project1Description: "本システムはログ処理システムです。別のサーバから送ってきたログファイルを必要がない情報を削除し、残した部分を整形して、別のサーバに送ります。",
+  project1Duty: ["詳細設計書、単体テスト設計書と結合テスト設計書を作成", "製造チームに仕様説明とお客様にプレゼンテーション"],
+  project1TechStack: "Window バッチ",
 
   // project 2
   project2Name: "B2B食品売買システム",
   project2Period: "2019/5 - 2019/9",
-  project2Description: "2019年に消費税が10％になったと伴う、本システムに対して、画面表示内容、DBの更新方法とサーバ側のロジックを修正が必要でした。",
+  project2Description: "2019年に消費税が10％になったことに伴い、本システムに対して、画面表示内容、DBの更新方法とサーバ側のロジックを修正が必要でした。",
   project2Duty: ["既存画面の表示修正とサーバー側のロジック修正", "単体テスト設計書作成と単体テスト作業", "バグ修正とQA回答"],
   project2TechStack: "Java, VB.NET, Tomcat, Linux, HiRDB, SVN, FTP",
 
@@ -171,21 +171,21 @@ const messages = {
   // project 5
   project5Name: "銀行取引監視システム",
   project5Period: "2020/10 - 2020/11",
-  project5Description: "Spring Batchで銀行の取引をチェックして、もしあるユーザーは疑わしい取引があったら、該当取引IDを抽出して、別のテーブルに登録する。",
+  project5Description: "Spring Batchで銀行の取引をチェックして、もしあるユーザーが疑わしい取引があったら、該当取引IDを抽出して、別のテーブルに登録する。",
   project5Duty: ["設計書作成とコーディング", "バグ修正とQA回答", "ソースと設計書のレビュー"],
   project5TechStack: "Java8, SQL Server, Spring Boot, Spring Batch, Git/Github",
 
   // project 6
   project6Name: "オンラインショップオーダー管理システム",
   project6Period: "2020/12 - 現在",
-  project6Description: "本システムはオーダー管理、マスタ管理、在庫管理、顧客情報管理、取り寄せ管理によって構成されています。私は取り寄せ管理機能を担当しています。取り寄せのワークフローは、オーダー情報を別のサーバーから取得して、取り寄せ必要チェックとオーダー有効チェックを行なってから、残ってたオーダー情報を別のサーバーに送って、AWSのS3にアップロードします。",
+  project6Description: "本システムはオーダー管理、マスタ管理、在庫管理、顧客情報管理、取り寄せ管理によって構成されています。私は取り寄せ管理機能を担当しています。取り寄せのワークフローは、オーダー情報を別のサーバーから取得して、取り寄せ必要チェックとオーダー有効チェックを行なってから、残ったオーダー情報を別のサーバーに送って、AWSのS3にアップロードします。",
   project6Duty: ["設計書作成と実装", "Vue.jsコンポーネントの実装", "Junit単体テスト作成", "バグ修正とQA回答", "ソースと設計書のレビュー", "リリース作業"],
   project6TechStack: "Java11, PostgreSQL, Spring Boot, Spring Data JPA, Git/Github, Vue, TypeScript, AWS, CI/CD, Flyway, Gradle",
   
   // project 7
-  project7Name: "フィル管理システム",
+  project7Name: "ファイル管理システム",
   project7Period: "2021/6 - 現在",
-  project7Description: "本システムはAWS上のS3に保存した業務関連のファイルを直接扱えます。主な機能はアップロード、ダウンロード、フィル削除、ファイル編集などです。",
+  project7Description: "本システムはAWS上のS3に保存した業務関連のファイルを直接扱えます。主な機能はアップロード、ダウンロード、ファイル削除、ファイル編集などです。",
   project7Duty: ["設計書作成と実装", "Reactのコンポーネントの実装", "バグ修正とQAの回答", "ソースと設計書のレビュー", "リリース作業"],
   project7TechStack: "Java11, PostgreSQL, Spring Boot, Spring Data JPA, Git/Github, React, TypeScript, AWS, CI/CD, Gradle, Node.js",
 

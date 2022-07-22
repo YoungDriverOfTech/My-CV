@@ -145,7 +145,7 @@ const messages = {
   project1Period: "2019/2 - 2019/4",
   project1Description: "This system deals with the logs from the other servers, deleting unnecessary parts and formating these logs to send to another server.",
   project1Duty: ["Writing design and test documents", "Explaining specification for coding team"],
-  project1TechStack: "Window Batch, Excel, Senjun",
+  project1TechStack: "Window Batch",
 
   // project 2
   project2Name: "Food Online Shop",

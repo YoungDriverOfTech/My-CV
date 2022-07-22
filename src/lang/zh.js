@@ -144,7 +144,7 @@ const messages = {
   project1Period: "2019/2 - 2019/4",
   project1Description: "此系统处理其他服务器发来的日志文件，删除其中不必要的部分，然后格式化剩下的日志文件内容，转发给别的服务器",
   project1Duty: ["做成详细设计书，单体设计书和结合测试书", "给coding团队说明式样"],
-  project1TechStack: "Window Batch, Excel, 千手",
+  project1TechStack: "Window Batch",
 
   // project 2
   project2Name: "B2B食品贩卖系统",
