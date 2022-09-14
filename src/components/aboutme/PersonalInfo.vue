@@ -17,7 +17,7 @@
         <br>
         <strong>{{ $t("message.githubLabel") }}: </strong><el-link type="primary" href="https://github.com/YoungDriverOfTech" target="_blank">YoungDriverOfTech</el-link>
         <br>
-        <strong>{{ $t("message.blogLabel") }}: </strong><el-link type="primary" href="https://www.yuque.com/lexiao-1kmgg" target="_blank">Leaining Blog</el-link>
+        <strong>{{ $t("message.blogLabel") }}: </strong><el-link type="primary" href="https://www.yuque.com/lexiao-1kmgg" target="_blank">Learning Blog</el-link>
         <br>
         <strong>{{ $t("message.workPeriodLabel") }}: </strong>{{ $t("message.workPeriodValue") }}
       </template>
